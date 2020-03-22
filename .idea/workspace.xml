@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/SystemController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="131" column="8" lean-forward="true" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
+              <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/welcome.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="150">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -59,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/StatsController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="13">
-              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1529#1545#0" expanded="true" />
@@ -101,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/mapper/ExamPaperMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="66" column="37" lean-forward="true" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+              <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -110,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/after/bus/ExamPaperMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
-              <caret line="124" column="11" lean-forward="true" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+              <caret line="124" column="11" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -119,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeExamController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="379">
-              <caret line="306" column="5" lean-forward="true" selection-start-line="285" selection-start-column="4" selection-end-line="306" selection-end-column="5" />
+              <caret line="306" column="5" selection-start-line="285" selection-start-column="4" selection-end-line="306" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getRandomList#0;class#HomeExamController#0" />
@@ -215,6 +215,9 @@
       <replace>wadewhy</replace>
       <replace>logMapper</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -314,11 +317,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="815" />
-    <option name="y" value="125" />
+    <option name="x" value="540" />
+    <option name="y" value="82" />
     <option name="width" value="1535" />
     <option name="height" value="846" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -612,8 +616,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584887903970" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584888742273" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/git-cmd.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -828,17 +832,17 @@
       <workItem from="1584506423573" duration="98101000" />
       <workItem from="1584760580963" duration="26117000" />
       <workItem from="1584793223728" duration="733000" />
-      <workItem from="1584794273478" duration="41809000" />
+      <workItem from="1584794273478" duration="42604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330299000" />
+    <option name="totallyTimeSpent" value="331094000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="366" y="11" width="1535" height="846" extended-state="0" />
+    <frame x="540" y="82" width="1535" height="846" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49668875" visible="true" weight="0.21288136" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49668875" visible="true" weight="0.21288136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.5033113" side_tool="true" weight="0.21162046" />
@@ -848,7 +852,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Web" order="8" sideWeight="0.5022075" side_tool="true" weight="0.25266525" />
       <window_info anchor="bottom" id="Problems" order="0" />
-      <window_info anchor="bottom" id="JRebel Executor" order="1" sideWeight="0.49781182" visible="true" weight="0.04573171" />
+      <window_info active="true" anchor="bottom" id="JRebel Executor" order="1" sideWeight="0.49781182" visible="true" weight="0.04573171" />
       <window_info anchor="bottom" id="MyBatis Log" order="2" />
       <window_info anchor="bottom" id="Tail" order="3" />
       <window_info anchor="bottom" id="Application Servers" order="4" weight="0.3289183" />
@@ -1292,14 +1296,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/mapper/ExamPaperMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="66" column="37" lean-forward="true" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/after/bus/ExamPaperMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
-          <caret line="124" column="11" lean-forward="true" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+          <caret line="124" column="11" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1313,7 +1317,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/StatsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
-          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1529#1545#0" expanded="true" />
@@ -1324,7 +1328,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeExamController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
-          <caret line="306" column="5" lean-forward="true" selection-start-line="285" selection-start-column="4" selection-end-line="306" selection-end-column="5" />
+          <caret line="306" column="5" selection-start-line="285" selection-start-column="4" selection-end-line="306" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getRandomList#0;class#HomeExamController#0" />
@@ -1360,14 +1364,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/SystemController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="131" column="8" lean-forward="true" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
+          <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
