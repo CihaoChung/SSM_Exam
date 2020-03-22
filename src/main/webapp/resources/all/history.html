@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>历史考试</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/baseutil.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+		window.onload = function(){
+			$(".tm_table_list tbody tr").mouseover(function(){
+				$(this).attr("style","background:#f5f5f5");
+			});
+			$(".tm_table_list tbody tr").mouseout(function(){
+				$(this).attr("style","background:#ffffff");
+			});
+		}
+	</script>
+
+  </head>
+  
+<body>
+
+	<div class="tm_main">
+    	
+        
+        <div class="tm_container">
+        	<div class="tm_navtitle">
+				<h1>历史考试</h1>
+                <span>历史考试，请选择以下列表中我参加过的考试进行详情查看。</span>
+            </div>
+        </div>
+        
+        <div class="tm_container">
+			<form action="history.html" method="get">
+			<div class="tm_searchbox">
+				试卷名称 :
+				<input type="text" name="p_name" class="tm_txts" size="10" maxlength="20" value="" /> &nbsp;
+
+				试卷分类 :
+				<select class="tm_select" name="p_cid" style="min-width:150px">
+					<option value="">全部</option>
+					
+					<option value="84b2c108-9689-4955-8cbb-c2e8eed3f6c0" >123测试</option>
+					
+					<option value="2b13fc55-71a2-4a2c-b386-0c92aecd7bcf" >第八届</option>
+						
+					
+				</select> &nbsp;
+
+				<button class="tm_btns" type="submit">搜索</button>
+			</div>
+
+        	<table width="100%" cellpadding="10" border="0" class="tm_table_list">
+            	<thead>
+                	<tr>
+                        <th>试卷名称</th>
+						<th>试卷状态</th>
+                        <th>考试时长</th>
+                    	<th>考试耗时</th>
+                    	<th>考试时间</th>
+                        <th>试卷类型</th>
+                        <th>试卷得分</th>
+                        <th>及格分数/卷面总分</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+					
+                	
+					
+                	<tr>
+						<td>计算机应用基础test</td>
+						<td>
+							
+								
+								已批改
+							
+						</td>
+                    	<td>10 分钟</td>
+						<td><b>0</b> 分钟</td>
+						<td>
+							2019-03-11 16:35:26.0<br/>2019-03-11 16:35:56.0
+						</td>
+						<td>
+							
+								普通试卷
+								
+							
+						</td>
+						<td>
+							
+								
+									
+										
+											<span class="tm_label">0</span>
+											
+												
+												<font color="red"><b>不及格</b></font>
+											
+										
+										
+									
+								
+								
+							
+						</td>
+						<td>42 / 70</td>
+                        <td>
+							
+								
+									<a href="user/paper/history_detail.thtml?eid=6295490e-20d6-4915-a090-910539ecbcc6&pid=dba2b3ea-955d-47ef-aa41-9b228fd8701c">详情</a>
+								
+								
+							
+						</td>
+                    </tr>
+					
+                </tbody>
+            </table>
+			</form>
+			<table width="100%" cellpadding="10" border="0" class="tm_table_list">
+				<tfoot>
+					<tr>
+						<td>
+							<div class="tm_pager_foot">
+								<a href="" class="tm_btns" style="color:white;text-decoration:none;">上一页</a>&nbsp; <a href="" class="tm_btns" style="color:white;text-decoration:none;">下一页</a>&nbsp; 
+							</div>
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+        </div>
+        
+        
+    </div>
+
+</body>
+</html>

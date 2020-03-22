@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>head</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript">
+		var tm_var_menustatus = 0;
+		function tm_switch_menu(){
+			if(tm_var_menustatus==0){
+				tm_var_menustatus = 1;
+				$('#mainframe', window.parent.document).attr("cols","0,*");
+			}else{
+				tm_var_menustatus = 0;
+				$('#mainframe', window.parent.document).attr("cols","200,*");
+			}
+			
+		}
+
+		var tm = {
+			logout : function(){
+				if(window.confirm('确定要退出登录吗？')){
+					$.ajax({
+						type: "POST",
+						url: "http://demo.tomexam.com/common/logout.do",
+						data: "t=" + Math.random(),
+						success: function(msg){
+							top.location.href = "http://demo.tomexam.com/logout.thtml";
+						},
+						error : function(){
+							top.location.href = "http://demo.tomexam.com/logout.thtml";
+						}
+					});
+				}
+			}
+		};
+
+		var tm_activemenu = function(obj){
+			$(obj).parent().parent().children("li").attr("class","");
+			$(obj).parent().attr("class","active");
+		}
+
+
+		
+	</script>
+</head>
+<body>
+
+    <div class="tm_head">
+    
+        <div class="tm_head_logo"><a href="/" target="_blank"><img src="images/logo.png" /></a></div>
+        <div class="tm_head_switch"><a href="javascript:void(0);" ><img src="images/ico_lines.png" /></a></div>
+
+		
+
+
+		
+			<div class="tm_head_menu">
+				<ul>
+				</ul>
+			</div>
+
+			<div class="tm_head_tools">
+				<span style="cursor:pointer" title='用户名 : zhangsan &#10真实姓名 : 张三  &#10证件编号 : 12312312 &#10最后登录时间 : 2019-05-01 16:22:55.0'>
+					zhangsan (张三)
+				</span> |
+				<a href="user/profile.thtml" target="main"><img src="images/ico_profile.png" align="absmiddle"/>帐户</a> |
+				<a href="javascript:void(0);" onclick="return tm.logout();"><img src="images/ico_exit.png" align="absmiddle"/>退出</a>
+			</div>
+		
+        
+        
+    </div>
+
+
+
+	<script type="text/javascript">
+
+		
+
+	</script>
+
+
+</body>
+</html>

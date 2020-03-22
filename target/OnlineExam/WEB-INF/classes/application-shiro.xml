@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 声明凭证匹配器 -->
+    <bean id="credentialsMatcher" class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+        <property name="hashAlgorithmName" value="md5"></property>
+        <property name="hashIterations" value="2"></property>
+    </bean>
+
+    <!-- 声明userRealm -->
+    <bean id="userRealm" class="xyz.wadewhy.after.sys.realm.UserRealm">
+        <!-- 注入凭证匹配器 -->
+        <property name="credentialsMatcher" ref="credentialsMatcher"></property>
+    </bean>
+
+
+
+    <!-- 配置SecurityManager -->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <!-- 注入realm -->
+        <property name="realm" ref="userRealm"></property>
+        <!-- 配置多个Realm的登录认证 -->
+        <!--<property name="authenticator" ref="authenticator"></property>-->
+    </bean>
+
+
+    <!-- 配置shiro的过滤器  这里面的id必须和web.xml里面的配置一样 -->
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean" >
+        <!-- 注入安全管理器 -->
+        <property name="securityManager" ref="securityManager"></property>
+        <!-- 注入未登陆的跳转页面 默认的是webapp/login.jsp-->
+        <property name="loginUrl" value="/index.jsp"></property>
+        <!-- 注入未授权的访问页面 -->
+        <property name="unauthorizedUrl" value="/unauthorized.jsp"></property>
+        <!-- 配置过滤器链 -->
+        <property name="filterChainDefinitions">
+            <value>
+                <!-- 放行index.jsp -->
+                /index.jsp*=anon
+                /head.html=anon
+                /menu.html=anon
+                /favicon.ico=anon
+                <!-- 放行跳转到登陆页面的路径 -->
+               /after/sys/toLogin*=anon
+                <!--得到验证码-->
+                /after/login/getCode*=anon
+                <!-- 放行登陆的请求 -->
+                /after/login/login*=anon
+                <!---->
+                /before/*/*=anon
+                /after/test/*=anon
+                <!-- 设置登出的路径 -->
+                /after/login/logout*=logout
+                /resources/**=authc
+                <!--设置其它路径全部拦截-->
+                /**=authc
+            </value>
+        </property>
+
+    </bean>
+
+</beans>

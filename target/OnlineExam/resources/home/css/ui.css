@@ -1,0 +1,139 @@
+
+.tm_txt{
+	background-color:#fff; border:1px solid #ccc;
+	height:18px; padding:4px 6px; font-size:12px; line-height:18px; color:#555;
+	vertical-align:middle; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;
+}
+
+.tm_txts{
+	background-color:#fff; border:1px solid #ccc;
+	height:16px; padding:4px 6px; font-size:12px; line-height:16px; color:#555;
+	vertical-align:middle; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;
+}
+
+.tm_txtx{
+	background-color:#fff; border:1px solid #ccc;
+	padding:4px 6px; font-size:12px; line-height:18px; color:#555;
+	vertical-align:middle; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;
+}
+
+.tm_select{
+	height: 28px; padding: 4px 6px; font-size: 12px; line-height: 28px;
+	color: #555; vertical-align: middle; -webkit-border-radius: 4px;
+	-moz-border-radius: 4px; border-radius: 4px; background-color: #fff; border: 1px solid #ccc;
+}
+
+.tm_selects{
+	height: 26px; padding: 4px 6px; font-size: 12px; line-height: 26px;
+	color: #555; vertical-align: middle; -webkit-border-radius: 4px;
+	-moz-border-radius: 4px; border-radius: 4px; background-color: #fff; border: 1px solid #ccc;
+}
+
+.tm_label{
+	font-size:12px; line-height:25px; height:25px
+}
+
+.tm_block{
+	font-size:12px; line-height:25px; height:25px
+}
+
+.tm_btn{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+
+.tm_btn_primary{
+    background-color: #006DCC;
+    background-image: linear-gradient(to bottom, #0088CC, #0044CC);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.tm_btns{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 1px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+	
+    background-color: #006DCC;
+    background-image: linear-gradient(to bottom, #0088CC, #0044CC);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.tm_btns_white{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 1px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+	
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+
+
+/** 图标集合 **/
+a.tm_ico_delete{ display:block; width:16px; height:16px; background:url('../images/icos/delete.png') no-repeat; }
+a.tm_ico_max{ display:block; width:16px; height:16px; background:url('../images/icos/down.png') no-repeat; }
+a.tm_ico_min{ display:block; width:16px; height:16px; background:url('../images/icos/up.png') no-repeat; }
+a.tm_lnk_normal{text-decoration:none; color:#000}
+a.tm_ico_eye{ display:block; width:16px; height:16px; background:url('../images/icos/eye.png') no-repeat; }
+
