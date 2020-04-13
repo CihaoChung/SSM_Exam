@@ -1,24 +1,3 @@
----
-title: 基于SSM考试系统
-author: 钟子豪
-top: true
-coverImg: true
-cover: https://cdn.jsdelivr.net/gh/Wadewhy/blogimg@master/bgimg/spring1.jpg
-top_img: https://cdn.jsdelivr.net/gh/Wadewhy/blogimg@master/bgimg/spring1.jpg
-toc: true
-mathjax: false
-categories: 项目系列
-tags:
-  - 项目经验 系列
-password:
-abbrlink: 11722
-date: 2020-03-22 21:05:31
-abstract: 该文章已加密, 请输入密码查看。
-message: 该文章已加密, 请输入密码查看。
-wrong_pass_message: 密码不正确，请重新输入！
-wrong_hash_message: 文章不能被校验, 不过您还是能看看解密后的内容！
----
-
 # 基于SSM考试系统
 
 ## 前言
