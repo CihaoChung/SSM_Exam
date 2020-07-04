@@ -45,17 +45,17 @@ public class HomeBusinessController {
                                   @RequestParam(name="page",defaultValue="1") Integer page,
                                   HttpServletRequest request){
         Student student = (Student)request.getSession().getAttribute("student");
-        System.err.println(student.toString());
+//        System.err.println(student.toString());
         Map<String, Object> queryMap = new HashMap<String, Object>();
         queryMap.put("subjectid", student.getSubjectid());
         queryMap.put("name", name);
         queryMap.put("offset", getOffset(page, pageSize));
         queryMap.put("pageSize", pageSize);
         model.addObject("examList", examService.findListByUser(queryMap));
-        for (Exam e:examService.findListByUser(queryMap)
+       /* for (Exam e:examService.findListByUser(queryMap)
              ) {
-            System.err.println("【exam】"+e.toString());
-        }
+//            System.err.println("【exam】"+e.toString());
+        }*/
         model.addObject("name", name);
         model.addObject("subject", subjectService.findSubjectById(student.getSubjectid()));
         model.setViewName("before/userHome/exam_list");

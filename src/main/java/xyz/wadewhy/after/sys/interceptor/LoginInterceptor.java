@@ -1,5 +1,7 @@
 package xyz.wadewhy.after.sys.interceptor;
 
+import lombok.extern.slf4j.Slf4j;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -28,7 +30,10 @@ import java.util.*;
  * @PROJECT_NAME: OnlineExam
  * 后台登录拦截器
  **/
+//@Slf4j
 public class LoginInterceptor implements HandlerInterceptor {
+    //获取日志记录器Logger，名字为本类类名
+    private static Logger logger = Logger.getLogger(LoginInterceptor.class);
     @Autowired
     private PermissionService permissionService;
     @Autowired
@@ -36,7 +41,14 @@ public class LoginInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
+        logger.info("----------------------------preHandle----------------------------------");
+//        log.info("----------------------------preHandle----------------------------------");
+        System.err.println("----------------------------preHandle----------------------------------");
         ActiverUser activerUser = (ActiverUser) WebUtils.getHttpSession().getAttribute("user");
+        //前台注册
+        if (null==activerUser){
+            return true;
+        }
         User user = activerUser.getUser();
         if (null != user) {
             // 存在该用户
@@ -65,11 +77,11 @@ public class LoginInterceptor implements HandlerInterceptor {
             if (!StringUtils.isEmpty(mid)) {
                 //不为空
                 List<Permission> allThirdMenu = MenuUtil.getAllThirdMenu((List<Permission>) httpServletRequest.getSession().getAttribute("userMenus"), Integer.valueOf(mid));
-                System.err.println("allThirdMenu"+allThirdMenu);
-                for (Permission p:allThirdMenu
+//                System.err.println("allThirdMenu"+allThirdMenu);
+               /* for (Permission p:allThirdMenu
                      ) {
                     System.err.println("【】"+p.toString());
-                }
+                }*/
                 httpServletRequest.setAttribute("thirdMenuList", allThirdMenu);
             }
             /************************************************/

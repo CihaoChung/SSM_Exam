@@ -35,7 +35,7 @@ public class ExamPaperAnswerController {
             @RequestParam(name="questionId",required=false) Integer questionId,
             Page page
     ){
-        System.err.println("模糊搜索分页显示列表查询");
+//        System.err.println("模糊搜索分页显示列表查询");
         Map<String, Object> ret = new HashMap<String, Object>();
         Map<String, Object> queryMap = new HashMap<String, Object>();
         if(examId != null){

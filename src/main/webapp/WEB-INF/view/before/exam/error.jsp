@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="wadewhy" value="${pageContext.request.contextPath}"/>
 <!DOCTYPE html>  
 <html>  
 <head>  
@@ -24,7 +25,7 @@
                 <td class="header">很抱歉！当前操作出现错误</td>  
             </tr>  
             <tr><td>原因：${msg }</td></tr>  
-            <tr><td class="check-info">点击前往首页<a href="../user/index">考生首页</a></td></tr>  
+            <tr><td class="check-info">点击前往首页<a href="${wadewhy}/before/sys/toIndex.action">考生首页</a></td></tr>  
         </table>  
     </div>  
 </body>  

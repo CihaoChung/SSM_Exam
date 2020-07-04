@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="copyright" content="All Rights Reserved, Copyright (C) 2013, 猿来入此, Ltd." />
+<meta name="copyright" content="All Rights Reserved, Copyright (C) 2013, wadewhy, Ltd." />
 <title>${title }</title>
 <link rel="stylesheet" type="text/css" href="${wadewhy}/resources/home/css/style.css">
 <link rel="stylesheet" type="text/css" href="${wadewhy}/resources/home/css/layer.css">

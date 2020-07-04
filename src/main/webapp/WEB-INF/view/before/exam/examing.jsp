@@ -99,7 +99,6 @@
 													<c:forEach items="${entry.value}" var="op" varStatus="i">
 														<li class="option" data-type="muilt" data-value="${op.selectoption}">
 
-
 															<input type="checkbox" class="radioOrCheck" name="answer1"
 																   id="${muiltQuestion }_answer_${entry.key.id}_option_1" value="${op.selectoption}"
 															/>
@@ -324,7 +323,17 @@
 			css_class : 'countdown-alt-3'
 		});
 	});
+	$(function() {
+		$('li.option input').click(function() {
+			var examId = $(this).closest('.test_content_nr_main').closest('li').attr('id'); // 得到题目ID
+			var cardLi = $('a[href=#' + examId + ']'); // 根据题目ID找到对应答题卡
+			// 设置已答题
+			if(!cardLi.hasClass('hasBeenAnswer')){
+				cardLi.addClass('hasBeenAnswer');
+			}
 
+		});
+	});
 	/**
 	 * 自动提交选择
 	 */
@@ -363,7 +372,7 @@
 				data: {"examid":submitExamId,"exampaperid":examPaperId,"questionid":questionId,"answer":selectedAnswer,"id":examPaperAnswerId},
 				success: function(data){
 					if(data.type == 'success'){
-						//top.window.location="../exam/examing?examId="+eid;
+						// top.window.location="../exam/examing?examId="+eid;
 					}else{
 						alert(data.msg);
 						//$(".tm_btn_primary").text('提交');
@@ -402,7 +411,7 @@ function autoSubmitExam(){
 		success: function(data){
 			if(data.type == 'success'){
 				alert('考试时间到，考试成绩已出，请到会员中心查看');
-				window.location="${wadewhy}/before/sys/index.action";
+				window.location="${wadewhy}/before/sys/toIndex.action";
 			}else{
 				alert(data.msg);
 				//$(".tm_btn_primary").text('提交');
@@ -413,9 +422,10 @@ function autoSubmitExam(){
 		beforeSend:function(){
 			autoSubmit = true;
 		},
-		error: function(){
+		error: function(data){
+			
 			//$(".tm_btn_primary").text('登录');
-			alert('系统忙，请稍后再试');
+			alert('系统忙，请稍后再试'+data);
 			window.location.reload();
 		}
 	});	
@@ -425,7 +435,9 @@ function submitExam(){
 	if(!wcm){
 		return;
 	}
+	/* 转化为json */
 	var dataOption=[];
+	console.log(${exam.writequestionnum });
 	for (var i = 0; i < ${exam.writequestionnum }; i++) {
 		var writerQuestions = new Object();
 		var num = "#"+i;
@@ -444,7 +456,7 @@ function submitExam(){
 		success: function(data){
 			if(data.type == 'success'){
 				alert('考试成绩已出，请到会员中心查看');
-				window.location="../user/index";
+				window.location="${wadewhy}/before/sys/toIndex.action";
 			}else{
 				alert(data.msg);
 				//$(".tm_btn_primary").text('提交');
@@ -452,7 +464,8 @@ function submitExam(){
 				//window.location.reload();
 			}
 		},
-		error: function(){
+		error: function(data){
+			alert('系统忙，请稍后再试'+data);
 			//$(".tm_btn_primary").text('登录');
 			alert('系统忙，请稍后再试');
 			window.location.reload();

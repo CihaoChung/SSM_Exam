@@ -140,6 +140,7 @@
 						data: {"examId":eid},
 						success: function(data){
 							if(data.type == 'success'){
+								// alert(data.msg);
 								top.window.location="${wadewhy}/before/exam/examing.action?examId="+eid;
 							}else{
 								alert(data.msg);

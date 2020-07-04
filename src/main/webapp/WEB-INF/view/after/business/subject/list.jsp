@@ -38,7 +38,7 @@
         <table>
            <tr>
                 <td align="right">学科名称:</td>
-                <td><input type="text" id="edit-name" name="name" class="wu-text easyui-validatebox" data-options="required:true, missingMessage:'请填写学科名称'" ></td>
+                <td><input type="text" id="edit-name" name="name" class="wu-text easyui-validatebox" data-options="editable:false,required:true, missingMessage:'请填写学科名称'" ></td>
             </tr>
             <tr>
                 <td align="right">学科备注:</td>

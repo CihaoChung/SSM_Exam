@@ -50,6 +50,8 @@
                 /after/login/getCode*=anon
                 <!-- 放行登陆的请求 -->
                 /after/login/login*=anon
+                <!--放行注册用户-->
+                /after/student/add*=anon
                 <!---->
                 /before/*/*=anon
                 /after/test/*=anon

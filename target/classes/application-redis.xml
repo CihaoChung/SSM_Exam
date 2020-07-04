@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+        
+        
+       <context:component-scan base-package="xyz.wadewhy.cache"></context:component-scan>
+	<!-- 声明配置对象 -->
+	<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+		<!-- 连接池中的最大空闲连接 -->
+		<property name="maxIdle" value="20"></property>
+		<!-- 连接池最大连接数（使用负值表示没有限制） -->
+		<property name="maxTotal" value="25"></property>
+		<!-- 连接池中的最小空闲连接 -->
+		<property name="minIdle" value="10"></property>
+	</bean>
+
+	<!-- 声明jedisPool -->
+	<bean id="jedisPool" class="redis.clients.jedis.JedisPool">
+
+		<constructor-arg name="poolConfig" ref="jedisPoolConfig" />
+		<constructor-arg name="host" value="192.168.81.129" />
+		<constructor-arg name="port" value="6379" />
+		 <constructor-arg name="timeout" value="5000"/>
+        <constructor-arg name="password" value="wadewhy"/>
+	</bean>
+</beans>

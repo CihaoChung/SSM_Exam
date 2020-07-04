@@ -541,6 +541,7 @@
                     $.messager.confirm('消息提示', '修改完成', function(r) {
                         $("#edit-name").val('');
                         $("#edit-remark").val('');
+                        document.getElementById("edit-form").reset();
                         $('#edit-dialog').dialog('close');
                         $('#data-datagrid').datagrid('reload');
                     });

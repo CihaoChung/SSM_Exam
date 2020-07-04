@@ -3,15 +3,21 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
 
     <!-- 扫描 -->
-    <context:component-scan base-package="xyz.wadewhy.*.*.controller"></context:component-scan>
-    <context:component-scan base-package="xyz.wadewhy.*.controller"></context:component-scan>
+    <context:component-scan base-package="xyz.wadewhy.*.*.controller"/>
+    <context:component-scan base-package="xyz.wadewhy.*.controller"/>
     <!-- 配置适配器和映射器 -->
-    <mvc:annotation-driven></mvc:annotation-driven>
+    <mvc:annotation-driven/>
+    <!-- 启动对@AspectJ注解的支持 -->
+    <aop:aspectj-autoproxy/>
+    <!--通知spring使用cglib而不是jdk的来生成代理方法 AOP可以拦截到Controller-->
+    <!--<aop:aspectj-autoproxy proxy-target-class="true" />-->
+
 
 <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
  
@@ -23,6 +29,7 @@
 <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
     <property name="securityManager" ref="securityManager"/>
 </bean>
+
 
     <mvc:annotation-driven>
         <!-- 消息转换器,解决responseBody返回中外乱码问题 -->
@@ -36,9 +43,9 @@
     <!-- 配置视图解析器 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <!-- 前缀 -->
-        <property name="prefix" value="/WEB-INF/view/"></property>
+        <property name="prefix" value="/WEB-INF/view/"/>
         <!-- 后缀 -->
-        <property name="suffix" value=".jsp"></property>
+        <property name="suffix" value=".jsp"/>
     </bean>
     <!-- 配置文件上传 -->
     <!-- 配置拦截器 -->
@@ -68,7 +75,7 @@
             <mvc:exclude-mapping path="/after/login/login.action"/>
             <mvc:exclude-mapping path="/after/login/getCode.action"/>
             <mvc:exclude-mapping path="/resources/**"/>
-            <bean class="xyz.wadewhy.after.sys.interceptor.LoginInterceptor"></bean>
+            <bean class="xyz.wadewhy.after.sys.interceptor.LoginInterceptor"/>
         </mvc:interceptor>
 <!--        <mvc:interceptor>
             <mvc:mapping path="/home/user/**"/>
@@ -77,5 +84,6 @@
             <mvc:exclude-mapping path="/home/user/head.html"/>
             <bean class="com.ischoolbar.programmer.interceptor.home.LoginInterceptor"></bean>
         </mvc:interceptor>-->
+
     </mvc:interceptors>
 </beans>

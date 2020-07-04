@@ -40,7 +40,7 @@ public class TestController {
     @ResponseBody
     public String TestStrat(HttpServletRequest request,
                             HttpServletResponse response){
-        System.err.println("测试项目搭建");
+//        System.err.println("测试项目搭建");
         return "index";
     }
 
@@ -52,7 +52,7 @@ public class TestController {
      */
     @RequestMapping("addUser")
     public void addUser(String name,String pwd,String address){
-        System.err.println(name+pwd+address+"【添加用户测试】");
+//        System.err.println(name+pwd+address+"【添加用户测试】");
         UserVo userVo = new UserVo();
         userVo.setName(name);
         userVo.setAddress(address);
@@ -67,7 +67,7 @@ public class TestController {
     @RequestMapping("ShowMenu")
     public void showMenu(){
         logger.debug("showMenu");
-        System.err.println("ShowMenu");
+//        System.err.println("ShowMenu");
     }
 
 

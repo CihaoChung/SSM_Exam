@@ -175,7 +175,7 @@
 		}
 		var data = $("#edit-form").serialize();
 		$.ajax({
-			url:'edit',
+			url:'${wadewhy}/after/exam/edit.action',
 			dataType:'json',
 			type:'post',
 			data:data,
@@ -205,7 +205,7 @@
 					return;
 				}
 				$.ajax({
-					url:'delete',
+					url:'${wadewhy}/after/exam/delete.action',
 					dataType:'json',
 					type:'post',
 					data:{id:item.id},
@@ -258,6 +258,7 @@
             	$("#edit-muiltquestionnum").val(item.muiltquestionnum);
             	$("#edit-chargequestionnum").val(item.chargequestionnum);
             	$("#edit-singlequestionnum").val(item.singlequestionnum);
+            	$("#edit-writequestionnum").val(item.writequestionnum)
             	$("#edit-avaliabletime").val(item.avaliabletime);
             	$("#edit-subjectid").combobox('setValue',item.subjectid);
             }

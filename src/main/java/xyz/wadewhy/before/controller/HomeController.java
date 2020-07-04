@@ -41,10 +41,10 @@ public class HomeController {
            }
            //得到加密盐
            String salt = student.getSalt();
-            System.err.println("【salt】"+salt);
+//            System.err.println("【salt】"+salt);
            //输入的密码
            String consPwd = new Md5Hash(password, salt, 2).toString();
-            System.err.println("【consPwd】："+consPwd+"【student.getPassword()】："+student.getPassword());
+//            System.err.println("【consPwd】："+consPwd+"【student.getPassword()】："+student.getPassword());
            if (!consPwd.equals(student.getPassword())){
                //登入失败
                return new ResultObj(-1,"账号或密码错误");

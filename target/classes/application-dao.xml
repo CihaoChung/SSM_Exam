@@ -7,7 +7,7 @@
 
 	<!--引入db.properties-->
 	<bean id="placeholderConfigurer" class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
-		<property name="locations" value="classpath:db.properties"></property>
+		<property name="locations" value="classpath:db.properties"/>
 	</bean>
 
 	<!--使用druid数据源-->
@@ -18,26 +18,26 @@
 		<property name="username" value="${jdbc.user}"/>
 		<property name="password" value="${jdbc.password}"/>
 		<!--初始化连接池大小-->
-		<property name="initialSize" value="5"></property>
+		<property name="initialSize" value="5"/>
 		<!--设置最大连接数-->
-		<property name="maxActive" value="10"></property>
+		<property name="maxActive" value="10"/>
 		<!--设置等待时间-->
-		<property name="maxWait" value="5000"></property>
+		<property name="maxWait" value="5000"/>
 
-		<property name="filters" value="stat"></property>
+		<property name="filters" value="stat"/>
 	</bean>
 	<!-- 创建mybatis的 configuration对象-->
 	<bean id="configuration" class="org.apache.ibatis.session.Configuration">
-		<property name="logImpl" value="org.apache.ibatis.logging.stdout.StdOutImpl"></property>
+		<property name="logImpl" value="org.apache.ibatis.logging.stdout.StdOutImpl"/>
 	</bean>
 
 	<!-- 创建sqlSessionFactory -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<!-- 注入数据源 -->
-		<property name="dataSource" ref="dataSource"></property>
+		<property name="dataSource" ref="dataSource"/>
 
 		<!-- 注入配置类 -->
-		<property name="configuration" ref="configuration"></property>
+		<property name="configuration" ref="configuration"/>
 
 		<!-- 扫描mapper.xml -->
 		<property name="mapperLocations">
@@ -48,17 +48,17 @@
 		<!-- 配置分页插件 -->
 		<property name="plugins">
 			<array>
-				<bean class="com.github.pagehelper.PageInterceptor"></bean>
+				<bean class="com.github.pagehelper.PageInterceptor"/>
 			</array>
 		</property>
 	</bean>
 
 	<!-- 配置mapper接口的扫描 -->
 	<bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="xyz.wadewhy.*.*.mapper"></property>
+		<property name="basePackage" value="xyz.wadewhy.*.*.mapper"/>
 
 		<!-- 注入sqlSessionFactory -->
-		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
 
 	</bean>
 

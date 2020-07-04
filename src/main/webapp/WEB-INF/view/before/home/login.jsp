@@ -101,9 +101,14 @@
 		<%@include file="../common/footer.jsp"%>
 	</div>
 	<script type="text/javascript">
-		$(document).ready(function(){ 
-			checkBrowser();
-		}); 
+	 //解决session过期跳转到登录页并跳出iframe框架（或者layui弹出层）
+    $(document).ready(function () {
+        if (window != top) {
+            top.location.href = location.href;
+        }
+        checkBrowser();
+    });
+		
 
 		function getBrowserInfo(){
 			try{
@@ -142,7 +147,7 @@
 				$("input[name='password']").val('');
 			},
 			goRegister : function(){
-				window.location="register";
+				window.location="${wadewhy}/before/sys/register.action";
 			},
 			doLogin : function(){
 				var username = $("input[name='name']").val();

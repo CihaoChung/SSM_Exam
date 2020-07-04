@@ -1,13 +1,14 @@
 package xyz.wadewhy.after.bus.service.impl;
 
+import java.util.List;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import xyz.wadewhy.after.bus.domain.Exam;
 import xyz.wadewhy.after.bus.mapper.ExamMapper;
 import xyz.wadewhy.after.bus.service.ExamService;
-
-import java.util.List;
-import java.util.Map;
 
 /**
  * @PACKAGE_NAME: xyz.wadewhy.after.bus.homeservice.impl
@@ -23,6 +24,7 @@ import java.util.Map;
 public class ExamServiceImpl implements ExamService {
     @Autowired
     private ExamMapper examMapper;
+
     @Override
     public List<Exam> findList(Map<String, Object> queryMap) {
         return examMapper.findList(queryMap);
@@ -51,5 +53,29 @@ public class ExamServiceImpl implements ExamService {
     @Override
     public int updateExam(Exam exam) {
         return examMapper.updateByPrimaryKeySelective(exam);
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see
+     * xyz.wadewhy.after.bus.service.ExamService#edit(xyz.wadewhy.after.bus.domain.
+     * Exam)
+     */
+    @Override
+    public int edit(Exam exam) {
+        // TODO Auto-generated method stub
+        return examMapper.updateByPrimaryKeySelective(exam);
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see xyz.wadewhy.after.bus.service.ExamService#delete(java.lang.Long)
+     */
+    @Override
+    public int delete(Integer id) {
+        // TODO Auto-generated method stub
+        return examMapper.deleteByPrimaryKey(id);
     }
 }

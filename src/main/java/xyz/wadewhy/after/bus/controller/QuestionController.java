@@ -51,7 +51,7 @@ public class QuestionController {
      */
     @RequestMapping("add")
     public ResultObj add(Question question){
-        System.err.println(question.toString());
+//        System.err.println(question.toString());
         if(question == null){
             return new ResultObj(-1,"请填写正确的试题信息!");
         }
@@ -103,7 +103,7 @@ public class QuestionController {
                                    @RequestParam(name="questionType",required=false) Integer questionType,
                                    @RequestParam(name="subjectid",required=false) Integer subjectId,
                                    Page page){
-        System.err.println("[title]"+title+"questionType"+questionType+"subjectId"+subjectId);
+//        System.err.println("[itle]"+title+"questionType"+questionType+"subjectId"+subjectId);
         Map<String, Object> ret = new HashMap<String, Object>();
         Map<String, Object> queryMap = new HashMap<String, Object>();
         queryMap.put("title", title);
@@ -130,7 +130,7 @@ public class QuestionController {
             @RequestParam(name="questionId",defaultValue="") Integer questionId){
         //根据题目id查询题目
        Question question =questionService.findQuestionById(questionId);
-        System.err.println(question.toString());
+//        System.err.println(question.toString());
         //根据题目id查询选项和选项值
       List<Question_Option> question_optionList=  questionService.findQuestionAndOptionById(questionId);
       Map<String,Object> ret = new HashMap<>();
@@ -144,7 +144,7 @@ public class QuestionController {
      */
     @RequestMapping("edit")
     public ResultObj edit( @RequestParam(name="questionId",required=false) Integer questionId,Question question){
-        System.err.println(question.toString()+"【quertionId】"+questionId);
+//        System.err.println(question.toString()+"【quertionId】"+questionId);
         String optionString =question.getOptions();
         //修改qusetion
         if(question == null){
@@ -314,7 +314,7 @@ public class QuestionController {
                     num++;
                     question_option.setSelectoption(String.valueOf((char)Integer.parseInt(s)));
                     question_option.setOptionanswer( row.getCell(i).getStringCellValue());
-                    System.err.println(question_option.toString());
+//                    System.err.println(question_option.toString());
                     questionService.insertQuestion_Option(question_option);
                 }
             }

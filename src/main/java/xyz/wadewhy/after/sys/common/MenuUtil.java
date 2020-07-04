@@ -33,10 +33,10 @@ public class MenuUtil {
                 ret.add(menu);
             }
         }
-        for (Permission p:ret
+       /* for (Permission p:ret
              ) {
             System.err.println("【getAllTopMenu】"+p.toString());
-        }
+        }*/
         return ret;
     }
 
@@ -56,10 +56,10 @@ public class MenuUtil {
                 }
             }
         }
-        for (Permission p:ret
+     /*   for (Permission p:ret
         ) {
             System.err.println("【getAllSecondMenu】"+p.toString());
-        }
+        }*/
         return ret;
     }
 

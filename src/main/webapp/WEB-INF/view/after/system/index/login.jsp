@@ -28,14 +28,14 @@
         <div class="login-center clearfix">
             <div class="login-center-img"><img src="${wadewhy}/resources/admin/login/images/name.png"></div>
             <div class="login-center-input">
-                <input type="text" name="name" id="name" value="" placeholder="请输入您的用户名" onfocus="this.placeholder=&#39;&#39;" onblur="this.placeholder=&#39;请输入您的用户名&#39;">
+                <input type="text" name="name" id="name" value="wadewhy" placeholder="请输入您的用户名" onfocus="this.placeholder=&#39;&#39;" onblur="this.placeholder=&#39;请输入您的用户名&#39;">
                 <div class="login-center-input-text">用户名</div>
             </div>
         </div>
         <div class="login-center clearfix">
             <div class="login-center-img"><img src="${wadewhy}/resources/admin/login/images/password.png"></div>
             <div class="login-center-input">
-                <input type="password" name="pwd" id="pwd" value="" placeholder="请输入您的密码" onfocus="this.placeholder=&#39;&#39;" onblur="this.placeholder=&#39;请输入您的密码&#39;">
+                <input type="password" name="pwd" id="pwd" value="123456" placeholder="请输入您的密码" onfocus="this.placeholder=&#39;&#39;" onblur="this.placeholder=&#39;请输入您的密码&#39;">
                 <div class="login-center-input-text">密码</div>
             </div>
         </div>

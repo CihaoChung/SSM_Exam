@@ -76,7 +76,7 @@
 							data: {"examId":eid},
 							success: function(data){
 								if(data.type == 'success'){
-									top.window.location="${wadewhy}/before/exam/examing?examId="+eid;
+									top.window.location="${wadewhy}/before/exam/examing.action?examId="+eid;
 								}else{
 									alert(data.msg);
 									//$(".tm_btn_primary").text('提交');

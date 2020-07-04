@@ -40,7 +40,7 @@
         </div>
         <div class="wu-header-right">
         	<p><strong class="easyui-tooltip" title="0条未读消息">${user.roles[0].name}:${user.user.name}</strong>，欢迎您！</p>
-            <p><a href="${wadewhy}/after/system/index/index" target="_blank">网站首页</a>|<a href="wadewhy.xyz">支持论坛</a>|<a href="#">帮助中心</a>|<a href="logout">安全退出</a></p>
+            <p><a href="${wadewhy}/after/sys/index.action" target="_blank">网站首页</a>|<a href="http://wadewhy.xyz">支持论坛</a>|<a href="#">帮助中心</a>|<a href="logout">安全退出</a></p>
         </div>
     </div>
     <!-- end of header -->
@@ -71,7 +71,7 @@
     <!-- end of main --> 
     <!-- begin of footer -->
 	<div class="wu-footer" data-options="region:'south',border:true,split:true">
-    	&copy; 2019 【wadewhy】 All Rights Reserved
+    	&copy; 2019 【wadewhy-钟子豪】 All Rights Reserved
     </div>
     <!-- end of footer -->  
     <script type="text/javascript">

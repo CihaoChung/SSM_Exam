@@ -11,4 +11,6 @@
     <import resource="classpath:application-dao.xml" />
     <import resource="classpath:application-service.xml" />
     <import resource="classpath:application-shiro.xml" />
+    <!-- <import resource="classpath:application-redis.xml" /> -->
+    
 </beans>

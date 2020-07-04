@@ -51,7 +51,6 @@ public class MenuController {
     public Map<String, Object> getMenuList(Page page,
                                            @RequestParam(name = "title", required = false, defaultValue = "") String title
     ) {
-        System.err.println("【meun/list】"+title);
         Map<String, Object> ret = new HashMap<String, Object>();
         Map<String, Object> queryMap = new HashMap<String, Object>();
         queryMap.put("offset", page.getOffset());
@@ -101,8 +100,6 @@ public class MenuController {
      */
     @RequestMapping("edit")
     public ResultObj edit(Permission permission) {
-        System.err.println("【】" + permission.toString());
-
         if (permission == null) {
             return ResultObj.MENU_WRITER_ERROR;
         }
@@ -159,7 +156,7 @@ public class MenuController {
     public Map<String, Object> getIconList(HttpServletRequest request){
         Map<String, Object> ret = new HashMap<String, Object>();
         String realPath = request.getServletContext().getRealPath("/");
-        System.err.println(realPath + "\\resources\\admin\\easyui\\css\\icons");
+//        System.err.println(realPath + "\\resources\\admin\\easyui\\css\\icons");
         File file = new File(realPath + "\\resources\\admin\\easyui\\css\\icons");
         List<String> icons = new ArrayList<String>();
         if(!file.exists()){

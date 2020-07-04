@@ -9,12 +9,12 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
     <!-- 扫描 -->
-    <context:component-scan base-package="xyz.wadewhy.*.*.service.impl"></context:component-scan>
-    <context:component-scan base-package="xyz.wadewhy.*.service.impl"></context:component-scan>
+    <context:component-scan base-package="xyz.wadewhy.*.*.service.impl"/>
+    <context:component-scan base-package="xyz.wadewhy.*.service.impl"/>
     <!-- 配置事务管理器 -->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <!-- 注入数据源 -->
-        <property name="dataSource" ref="dataSource"></property>
+        <property name="dataSource" ref="dataSource"/>
     </bean>
 
     <!-- 配置事务的传播特性 -->
@@ -30,7 +30,6 @@
             <!--<tx:method name="*" read-only="true"/>-->
         </tx:attributes>
     </tx:advice>
-
     <!-- 配置aop -->
     <aop:config>
         <aop:pointcut expression="execution(* xyz.wadewhy.*.*service.impl.*.*(..))" id="pc"/>

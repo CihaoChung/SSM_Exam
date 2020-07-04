@@ -109,7 +109,7 @@ public class UserController {
             MultipartFile photo, HttpServletRequest request
     ) {
         Map<String, String> ret = new HashMap<String, String>();
-        System.err.println("pthoto" + photo);
+//        System.err.println("pthoto" + photo);
         if (photo == null) {
             ret.put("type", "error");
             ret.put("msg", "选择要上传的文件！");

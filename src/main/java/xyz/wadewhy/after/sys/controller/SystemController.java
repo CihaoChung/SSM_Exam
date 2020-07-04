@@ -54,7 +54,7 @@ public class SystemController {
      */
     @RequestMapping("toLogin")
     public String toLogin() {
-        System.err.println("daole....................................");
+//        System.err.println("daole....................................");
         logger.info("跳转到登录界面toLogin");
         return "after/system/index/login";
     }

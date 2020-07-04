@@ -1,18 +1,36 @@
 package xyz.wadewhy.before.controller;
 
-import cn.hutool.core.util.IdUtil;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
 import org.apache.shiro.crypto.hash.Md5Hash;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
-import xyz.wadewhy.after.bus.domain.*;
-import xyz.wadewhy.after.bus.service.*;
+
+import cn.hutool.core.util.IdUtil;
+import xyz.wadewhy.after.bus.domain.Exam;
+import xyz.wadewhy.after.bus.domain.ExamPaper;
+import xyz.wadewhy.after.bus.domain.Question;
+import xyz.wadewhy.after.bus.domain.Question_Option;
+import xyz.wadewhy.after.bus.domain.Student;
+import xyz.wadewhy.after.bus.service.ExamPaperService;
+import xyz.wadewhy.after.bus.service.ExamService;
+import xyz.wadewhy.after.bus.service.QuestionService;
+import xyz.wadewhy.after.bus.service.StudentService;
+import xyz.wadewhy.after.bus.service.SubjectService;
 import xyz.wadewhy.before.common.DataFormatUtil;
 import xyz.wadewhy.before.domain.ExamPaperAnswer;
 import xyz.wadewhy.before.service.ExamPaperAnswerService;
-
-import javax.servlet.http.HttpServletRequest;
-import java.util.*;
 
 /**
  * @PACKAGE_NAME: xyz.wadewhy.before.controller
@@ -41,27 +59,36 @@ public class HomeStudentController {
     private QuestionService questionService;
 
     private int pageSize = 10;
+
     /**
      * 计算数据库查询游标位置
+     * 
      * @param page
      * @param pageSize
      * @return
      */
-    private int getOffset(int page,int pageSize){
-        if(page < 1)page = 1;
+    private int getOffset(int page, int pageSize) {
+        if (page < 1)
+            page = 1;
         return (page - 1) * pageSize;
     }
+
     /**
      * 考生中心欢迎页面
+     * 
      * @param model
      * @param request
      * @return
      */
-    @RequestMapping(value = "/welcome",method = RequestMethod.GET)
-    public ModelAndView welcome(ModelAndView model, HttpServletRequest request){
+    @RequestMapping(value = "/welcome", method = RequestMethod.GET)
+    public ModelAndView welcome(ModelAndView model, HttpServletRequest request) {
         model.addObject("title", "考生中心");
-        Student student = (Student)request.getSession().getAttribute("student");
+        Student student = (Student) request.getSession().getAttribute("student");
         Map<String, Object> queryMap = new HashMap<String, Object>();
+        if (null == student) {// 用户失效
+            model.setViewName("/before/home/login");
+            return model;
+        }
         queryMap.put("subjectid", student.getSubjectid());
         queryMap.put("starttime", DataFormatUtil.getDate("yyyy-MM-dd hh:mm:ss", new Date()));
         queryMap.put("endtime", DataFormatUtil.getDate("yyyy-MM-dd hh:mm:ss", new Date()));
@@ -78,82 +105,85 @@ public class HomeStudentController {
 
     /**
      * 获取当前登录用户的用户名
+     * 
      * @param request
      * @return
      */
-    @RequestMapping(value="/get_current",method=RequestMethod.POST)
-    public Map<String,String> getCurrent(HttpServletRequest request){
+    @RequestMapping(value = "/get_current", method = RequestMethod.POST)
+    public Map<String, String> getCurrent(HttpServletRequest request) {
         Map<String, String> ret = new HashMap<String, String>();
         Object attribute = request.getSession().getAttribute("student");
-        if(attribute == null){
+        if (attribute == null) {
             ret.put("type", "error");
             ret.put("msg", "登录信息失效！");
             return ret;
         }
         ret.put("type", "success");
         ret.put("msg", "获取成功！");
-        Student student  = (Student)attribute;
+        Student student = (Student) attribute;
         ret.put("username", student.getName());
         ret.put("truename", student.getTruename());
         return ret;
     }
 
-
     /**
      * 修改用户信息
+     * 
      * @param request
      * @return
      */
-    @RequestMapping(value="/update_info",method=RequestMethod.POST)
+    @RequestMapping(value = "/update_info", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String,String> updateInfo(Student student,HttpServletRequest request){
+    public Map<String, String> updateInfo(Student student, HttpServletRequest request) {
         Map<String, String> ret = new HashMap<String, String>();
-        Student onlineStudent  = (Student)request.getSession().getAttribute("student");
+        Student onlineStudent = (Student) request.getSession().getAttribute("student");
         onlineStudent.setTel(student.getTel());
         onlineStudent.setTruename(student.getTruename());
-        if(studentService.edit(onlineStudent) <= 0){
+        if (studentService.edit(onlineStudent) <= 0) {
             ret.put("type", "error");
             ret.put("msg", "修改失败，请联系管理员！");
             return ret;
         }
-        //重置session中的用户信息
+        // 重置session中的用户信息
         request.getSession().setAttribute("student", onlineStudent);
         ret.put("type", "success");
         ret.put("msg", "获取成功！");
         return ret;
     }
+
     /**
      * 修改密码提交
+     * 
      * @param student
      * @param request
      * @return
      */
-    @RequestMapping(value="/update_password",method=RequestMethod.POST)
+    @RequestMapping(value = "/update_password", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String,String> updatePassword(Student student,String oldPassword,HttpServletRequest request){
+    public Map<String, String> updatePassword(Student student, String oldPassword, HttpServletRequest request) {
         Map<String, String> ret = new HashMap<String, String>();
-        //onlineStudent表示验证通过后的用户保存在session
-        Student onlineStudent  = (Student)request.getSession().getAttribute("student");
-        //得到加密盐
-       String salt= onlineStudent.getSalt();
-       //前台输入的密码加密后的密文
+        // onlineStudent表示验证通过后的用户保存在session
+        Student onlineStudent = (Student) request.getSession().getAttribute("student");
+        // 得到加密盐
+        String salt = onlineStudent.getSalt();
+        // 前台输入的密码加密后的密文
         String consPwd = new Md5Hash(oldPassword, salt, 2).toString();
-        if(!onlineStudent.getPassword().equals(consPwd)){
+        if (!onlineStudent.getPassword().equals(consPwd)) {
             ret.put("type", "error");
             ret.put("msg", "旧密码错误！");
             return ret;
         }
-        //旧密码验证通过，设置新加密盐和密码
+        // 旧密码验证通过，设置新加密盐和密码
         String newsalt = IdUtil.simpleUUID().toUpperCase();
         onlineStudent.setSalt(newsalt);
-        String pwd =  new Md5Hash(student.getPassword(), newsalt, 2).toString();
+        String pwd = new Md5Hash(student.getPassword(), newsalt, 2).toString();
         onlineStudent.setPassword(pwd);
-        if(studentService.edit(onlineStudent) <= 0){
+        if (studentService.edit(onlineStudent) <= 0) {
             ret.put("type", "error");
             ret.put("msg", "修改失败，请联系管理员！");
             return ret;
         }
-        //重置session中的用户信息
+        // 重置session中的用户信息
         request.getSession().setAttribute("student", onlineStudent);
         ret.put("type", "success");
         ret.put("msg", "获取成功！");
@@ -162,16 +192,15 @@ public class HomeStudentController {
 
     /**
      * 获取当前学生考过的考试信息
+     * 
      * @param model
      * @param request
      * @return
      */
-    @RequestMapping(value = "/history_list",method = RequestMethod.GET)
-    public ModelAndView historyList(ModelAndView model,
-                                    @RequestParam(name="name",defaultValue="") String name,
-                                    @RequestParam(name="page",defaultValue="1") Integer page,
-                                    HttpServletRequest request){
-        Student student = (Student)request.getSession().getAttribute("student");
+    @RequestMapping(value = "/history_list", method = RequestMethod.GET)
+    public ModelAndView historyList(ModelAndView model, @RequestParam(name = "name", defaultValue = "") String name,
+            @RequestParam(name = "page", defaultValue = "1") Integer page, HttpServletRequest request) {
+        Student student = (Student) request.getSession().getAttribute("student");
         Map<String, Object> queryMap = new HashMap<String, Object>();
         queryMap.put("name", name);
         queryMap.put("studentid", student.getId());
@@ -181,10 +210,12 @@ public class HomeStudentController {
         model.addObject("name", name);
         model.addObject("subject", subjectService.findSubjectById(student.getSubjectid()));
         model.setViewName("/before/userHome/history_list");
-        if(page < 1)page = 1;
+        if (page < 1)
+            page = 1;
         model.addObject("page", page);
         return model;
     }
+
     /**
      *
      * @param model
@@ -192,11 +223,11 @@ public class HomeStudentController {
      * @param request
      * @return
      */
-    @RequestMapping(value = "/review_exam",method = RequestMethod.GET)
-    public ModelAndView index(ModelAndView model,Integer examId,Integer examPaperId,HttpServletRequest request){
-        Student student = (Student)request.getSession().getAttribute("student");
+    @RequestMapping(value = "/review_exam", method = RequestMethod.GET)
+    public ModelAndView index(ModelAndView model, Integer examId, Integer examPaperId, HttpServletRequest request) {
+        Student student = (Student) request.getSession().getAttribute("student");
         Exam exam = examService.findById(examId);
-        if(exam == null){
+        if (exam == null) {
             model.setViewName("/before/exam/error");
             model.addObject("msg", "当前考试不存在!");
             return model;
@@ -204,21 +235,21 @@ public class HomeStudentController {
         Map<String, Object> queryMap = new HashMap<String, Object>();
         queryMap.put("examid", examId);
         queryMap.put("studentid", student.getId());
-        //根据考试信息和学生信息获取试卷
+        // 根据考试信息和学生信息获取试卷
         ExamPaper examPaper = examPaperService.find(queryMap);
-        if(examPaper == null){
+        if (examPaper == null) {
             model.setViewName("/before/exam/error");
             model.addObject("msg", "当前考试不存在试卷");
             return model;
         }
-        if(examPaper.getStatus() == 0){
+        if (examPaper.getStatus() == 0) {
             model.setViewName("/before/exam/error");
             model.addObject("msg", "您还没有考过这门考试！");
             return model;
         }
         queryMap.put("exampaperid", examPaper.getId());
         List<ExamPaperAnswer> findListByUser = examPaperAnswerService.findListByUser(queryMap);
-        model.addObject("title", exam.getName()+"-回顾试卷");
+        model.addObject("title", exam.getName() + "-回顾试卷");
         model.addObject("singleQuestionList", getExamPaperAnswerList(findListByUser, Question.QUESTION_TYPE_SINGLE));
         model.addObject("muiltQuestionList", getExamPaperAnswerList(findListByUser, Question.QUESTION_TYPE_MUILT));
         model.addObject("chargeQuestionList", getExamPaperAnswerList(findListByUser, Question.QUESTION_TYPE_CHARGE));
@@ -236,23 +267,26 @@ public class HomeStudentController {
         model.setViewName("/before/userHome/review_exam");
         return model;
     }
+
     /**
      * 返回指定类型的试题
+     * 
      * @param examPaperAnswers
      * @param questionType
      * @return
      */
-    private  List<Map<ExamPaperAnswer,List<Question_Option>>> getExamPaperAnswerList(List<ExamPaperAnswer> examPaperAnswers, int questionType){
-        List<Map<ExamPaperAnswer,List<Question_Option>>> lists = new ArrayList<>();
-        Map<ExamPaperAnswer,List<Question_Option>> qutionAns=new HashMap<>();
-        for(ExamPaperAnswer examPaperAnswer:examPaperAnswers){
-            if(examPaperAnswer.getQuestion().getType() == questionType){
-                Integer qid=examPaperAnswer.getQuestionid();
-                //根据questionid查询出该题目下的选项
-                List<Question_Option>qolist=questionService.findQuestionAndOptionById(qid);
-                System.err.println(examPaperAnswer.toString());
-                //将问题和选项保存在map中
-                qutionAns.put(examPaperAnswer,qolist);
+    private List<Map<ExamPaperAnswer, List<Question_Option>>> getExamPaperAnswerList(
+            List<ExamPaperAnswer> examPaperAnswers, int questionType) {
+        List<Map<ExamPaperAnswer, List<Question_Option>>> lists = new ArrayList<>();
+        Map<ExamPaperAnswer, List<Question_Option>> qutionAns = new HashMap<>();
+        for (ExamPaperAnswer examPaperAnswer : examPaperAnswers) {
+            if (examPaperAnswer.getQuestion().getType() == questionType) {
+                Integer qid = examPaperAnswer.getQuestionid();
+                // 根据questionid查询出该题目下的选项
+                List<Question_Option> qolist = questionService.findQuestionAndOptionById(qid);
+//                System.err.println(examPaperAnswer.toString());
+                // 将问题和选项保存在map中
+                qutionAns.put(examPaperAnswer, qolist);
                 lists.add(qutionAns);
             }
         }
