@@ -5,102 +5,116 @@
       <artifact name="OnlineExam:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" description="  &lt;servlet-mapping&gt;&#10;    &lt;servlet-name&gt;default&lt;/ser..." line="120" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7b5d6dc4-d3e0-4c02-a402-231cbe35ea3d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/SubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/mapper/QuestionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/SubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/SubjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/impl/QuestionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/impl/SubjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/impl/SubjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/SystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/mapper/PermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/mapper/PermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/realm/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/realm/UserRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/PermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/PermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/PermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeExamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeExamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeSystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeSystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/cache/RoleIdsAspectCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/wadewhy/cache/RoleIdsAspectCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/after/bus/ExamPaperMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/after/bus/ExamPaperMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/after/bus/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/after/bus/QuestionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/after/sys/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/after/sys/PermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/exam/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/exam/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/examPaper/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/examPaper/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/examPaperAnswer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/examPaperAnswer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/question/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/question/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/stats/exam_stats.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/stats/exam_stats.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/student/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/student/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/subject/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/subject/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/common/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/common/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/log/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/log/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/menu/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/menu/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/role/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/role/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/user_header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/user_header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/exam/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/exam/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/exam/examing.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/exam/examing.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/home/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/home/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/home/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/home/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/exam_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/exam_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/history_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/history_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/password.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/review_exam.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/review_exam.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/after/bus/ExamPaperMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/after/bus/ExamPaperMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/after/bus/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/after/bus/QuestionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/after/sys/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/after/sys/PermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/BusinessController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/BusinessController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/ExamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/ExamController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/ExamPaperAnswerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/ExamPaperAnswerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/ExamPaperController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/ExamPaperController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/QuestionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/StatsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/StatsController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/StudentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/SubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/controller/SubjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/Exam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/ExamPaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/ExamPaper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/ExamPaperCreate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/ExamPaperCreate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/Question_Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/Question_Option.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/Subject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/studentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/studentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/studentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/studentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/studentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/studentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/studentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/domain/studentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/ExamMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/ExamMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/ExamPaperCreateMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/ExamPaperCreateMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/ExamPaperMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/ExamPaperMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/QuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/QuestionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/Question_OptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/Question_OptionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/StudentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/SubjectMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/mapper/SubjectMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/ExamPaperCreateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/ExamPaperCreateService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/ExamPaperService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/ExamPaperService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/ExamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/ExamService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/StudentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/SubjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/SubjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/ExamPaperCreateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/ExamPaperCreateServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/ExamPaperServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/ExamPaperServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/ExamServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/ExamServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/QuestionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/QuestionServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/StudentServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/SubjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/bus/service/impl/SubjectServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/ActiverUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/ActiverUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/Constant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/DataGridView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/DataGridView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/GlobalExceptionHanderAdvise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/GlobalExceptionHanderAdvise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/MenuUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/MenuUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/ResultObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/ResultObj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/WebUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/common/WebUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/LogController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/PermissionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/PermissionController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/RoleController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/SystemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/SystemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/domain/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/domain/Log.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/domain/Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/domain/Permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/domain/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/domain/Role_Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/domain/Role_Permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/domain/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/interceptor/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/mapper/LogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/mapper/LogMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/mapper/MenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/mapper/MenuMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/mapper/PermissionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/mapper/PermissionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/mapper/RoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/mapper/UserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/realm/UserRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/realm/UserRealm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/LogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/LogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/MenuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/PermissionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/PermissionService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/RoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/impl/LogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/impl/LogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/impl/MenuServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/impl/PermissionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/impl/PermissionServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/impl/RoleServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/vo/PermissionVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/vo/PermissionVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/vo/UserVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/after/sys/vo/UserVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/bus/mapper/ExamPaperAnswerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/bus/mapper/ExamPaperAnswerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/common/DataFormatUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/common/DataFormatUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/BeforeTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/BeforeTestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/HomeBusinessController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/HomeBusinessController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/HomeExamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/HomeExamController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/HomeStudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/HomeStudentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/HomeSystemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/controller/HomeSystemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/domain/ExamPaperAnswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/domain/ExamPaperAnswer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/interceptor/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/service/ExamPaperAnswerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/service/ExamPaperAnswerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/service/impl/ExamPaperAnswerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/before/service/impl/ExamPaperAnswerServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/xyz/wadewhy/cache/RoleIdsAspectCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xyz/wadewhy/cache/RoleIdsAspectCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/xyz.wadewhy/OnlineExam/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/xyz.wadewhy/OnlineExam/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/RoleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RoleTest.class" afterDir="false" />
     </list>
@@ -117,68 +131,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/interceptor/LoginInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/cache/RoleIdsAspectCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/BusinessController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding>
-                <element signature="e#1273#1274#0" expanded="true" />
-                <element signature="e#1325#1326#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="91">
+              <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -186,26 +143,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1550">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="250">
+              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2850" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+            <state relative-caret-position="-1622" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9800">
-              <caret line="196" column="20" selection-start-line="196" selection-start-column="13" selection-end-line="196" selection-end-column="20" />
+            <state relative-caret-position="159">
+              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -222,24 +211,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>json</find>
-      <find>alert</find>
-      <find>../..</find>
-      <find>/home</find>
-      <find>wadewhy</find>
-      <find>getExamPaperAnswerList</find>
-      <find>we</find>
-      <find>sub</find>
-      <find>logDao</find>
-      <find>welcome</find>
-      <find>useGeneratedKeys=&quot;true&quot;</find>
-      <find>submit_answer</find>
-      <find>syetem</find>
-      <find>system.err</find>
-      <find>system</find>
-      <find>System.err.println</find>
       <find>redirectMAV</find>
-      <find>System.err.println</find>
       <find>猿来入此</find>
       <find>submit_exam</find>
       <find>退出</find>
@@ -252,6 +224,23 @@
       <find>Filter</find>
       <find>aop</find>
       <find>lifecycleBeanPostProcessor</find>
+      <find>javax</find>
+      <find>findRoleByUid</find>
+      <find>cacheRolefindList</find>
+      <find>cacheRoleIdsByUserId</find>
+      <find>add_role_user</find>
+      <find>queryPermissionByUserId</find>
+      <find>queryMenuById</find>
+      <find>add</find>
+      <find>queryRolePermissionIdsByRid</find>
+      <find>get_all_menu</find>
+      <find>sys</find>
+      <find>bus_examPaper</find>
+      <find>bus_exampaper</find>
+      <find>starttime</find>
+      <find>start_exam-----ExamPaper</find>
+      <find>${pageContext.request.contextPath}</find>
+      <find>${wadewhy}</find>
     </findStrings>
     <replaceStrings>
       <replace>activerUser</replace>
@@ -279,6 +268,8 @@
       <replace>/before</replace>
       <replace>logMapper</replace>
       <replace>wadewhy</replace>
+      <replace>bus</replace>
+      <replace>${pageContext.request.contextPath}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -288,57 +279,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/log/list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/impl/ExamPaperServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/ExamPaperService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/mapper/ExamPaperMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/after/bus/ExamPaperMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/stats/exam_stats.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/StatsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/BeforeTestController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/exam_list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/ExamController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/ExamPaperAnswerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/impl/SubjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/SubjectController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/cache/SubjectAspectCache.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-service.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeSystemController.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/QuestionController.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeBusinessController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/after/sys/PermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/mapper/PermissionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/PermissionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/mapper/QuestionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/after/bus/QuestionMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/impl/QuestionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/QuestionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeExamController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeStudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/cache/QuestionAspectCache.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/exam/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/examPaper/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/examPaperAnswer/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/question/list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/home/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/user_header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/home/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/stats/exam_stats.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/student/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/subject/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/common/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/common/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/log/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/menu/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/role/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/user/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeSystemController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/head.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/user_header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/exam/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/exam/examing.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/SystemController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/common/MenuUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-redis.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/cache/MenuAspectCache.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/home/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/home/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/exam_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/history_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/password.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/profile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/review_exam.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/application-shiro.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RoleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-dao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/wadewhy/cache/RoleIdsAspectCache.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/menu.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -389,21 +380,15 @@
           <item name="OnlineExam Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="OnlineExam Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="net.sf.json-lib:json-lib:2.4" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-19" />
-    <option name="y" value="99" />
+    <option name="x" value="5" />
+    <option name="y" value="64" />
     <option name="width" value="1928" />
-    <option name="height" value="888" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -411,6 +396,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -495,7 +481,44 @@
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="wadewhy" type="462c0819:PsiDirectoryNode" />
               <item name="after" type="462c0819:PsiDirectoryNode" />
+              <item name="bus" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="wadewhy" type="462c0819:PsiDirectoryNode" />
+              <item name="after" type="462c0819:PsiDirectoryNode" />
+              <item name="bus" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="wadewhy" type="462c0819:PsiDirectoryNode" />
+              <item name="after" type="462c0819:PsiDirectoryNode" />
               <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="wadewhy" type="462c0819:PsiDirectoryNode" />
+              <item name="after" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
@@ -520,6 +543,85 @@
               <item name="after" type="462c0819:PsiDirectoryNode" />
               <item name="sys" type="462c0819:PsiDirectoryNode" />
               <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="wadewhy" type="462c0819:PsiDirectoryNode" />
+              <item name="after" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="wadewhy" type="462c0819:PsiDirectoryNode" />
+              <item name="after" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="wadewhy" type="462c0819:PsiDirectoryNode" />
+              <item name="before" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="wadewhy" type="462c0819:PsiDirectoryNode" />
+              <item name="before" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="wadewhy" type="462c0819:PsiDirectoryNode" />
+              <item name="before" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="wadewhy" type="462c0819:PsiDirectoryNode" />
+              <item name="before" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="wadewhy" type="462c0819:PsiDirectoryNode" />
+              <item name="before" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
@@ -570,7 +672,7 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="after" type="462c0819:PsiDirectoryNode" />
+              <item name="before" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
@@ -580,8 +682,8 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="after" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="before" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
@@ -591,20 +693,8 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="after" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="after" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="before" type="462c0819:PsiDirectoryNode" />
+              <item name="userHome" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
@@ -615,30 +705,27 @@
             <path>
               <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593737361142" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ssm+shiro+redis/SSR/SSM+Shiro+redis实现的权限系统" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594177461790" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Shiro/Shiro_SSM Maven Webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -648,22 +735,23 @@
       <recent name="xyz.wadewhy.after.sys.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\test\java" />
       <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\resources" />
+      <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\test\java" />
       <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\webapp\WEB-INF\view\before\home" />
       <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\webapp" />
       <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\webapp\WEB-INF\view\after\system\index" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xyz.wadewhy.cache" />
       <recent name="xyz.wadewhy.after.bus.service.impl" />
       <recent name="xyz.wadewhy.after.sys.common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\webapp" />
+      <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\webapp\WEB-INF\view" />
+      <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\webapp\resources" />
       <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\resources\mapper\after\sys" />
       <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\resources" />
-      <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\java\xyz\wadewhy\before\bus" />
-      <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\resources\mapper\before\bus" />
-      <recent name="F:\MyIdeaProgram\examSystem\SSM\OnlineExam\src\main\resources\mapper\before" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -854,9 +942,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RoleTest.findAll" />
-        <item itemvalue="JUnit.RoleTest.logTest2" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.RoleTest.logTest2" />
+        <item itemvalue="JUnit.RoleTest.findAll" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.TestController" />
       </list>
@@ -890,17 +978,15 @@
       <workItem from="1593691765896" duration="5102000" />
       <workItem from="1593739248385" duration="592000" />
       <workItem from="1593851525415" duration="52000" />
-      <workItem from="1593875105114" duration="727000" />
+      <workItem from="1593875105114" duration="1697000" />
+      <workItem from="1593957816340" duration="460000" />
+      <workItem from="1593958808210" duration="7294000" />
+      <workItem from="1593996748801" duration="55745000" />
+      <workItem from="1594170228374" duration="6525000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoleTest_logTest2 - 2020.07.02 at 19h 22m 43s.xml">
-      <configuration name="RoleTest.logTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoleTest_findAll - 2020.07.02 at 19h 23m 47s.xml">
-      <configuration name="RoleTest.findAll" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RoleTest_findAll - 2020.07.02 at 19h 25m 40s.xml">
       <configuration name="RoleTest.findAll" configurationId="JUnit" />
     </history-entry>
@@ -925,23 +1011,28 @@
     <history-entry file="RoleTest_findAll - 2020.07.02 at 21h 00m 31s.xml">
       <configuration name="RoleTest.findAll" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RoleTest_findAll - 2020.07.05 at 22h 24m 05s.xml">
+      <configuration name="RoleTest.findAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleTest_logTest2 - 2020.07.05 at 22h 59m 44s.xml">
+      <configuration name="RoleTest.logTest2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388879000" />
+    <option name="totallyTimeSpent" value="459873000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-19" y="99" width="1928" height="888" extended-state="1" />
-    <editor active="true" />
+    <frame x="5" y="64" width="1928" height="875" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.20503213" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49312976" visible="true" weight="0.21038544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" sideWeight="0.5033113" side_tool="true" weight="0.21162046" />
+      <window_info id="JRebel" order="3" sideWeight="0.5051852" side_tool="true" weight="0.1493576" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" sideWeight="0.50457317" side_tool="true" weight="0.17220339" />
+      <window_info id="Web" order="8" sideWeight="0.5068702" side_tool="true" weight="0.21038544" />
       <window_info anchor="bottom" id="Problems" order="0" weight="0.03311258" />
       <window_info anchor="bottom" id="JRebel Executor" order="1" sideWeight="0.49781182" weight="0.04643963" />
       <window_info anchor="bottom" id="MyBatis Log" order="2" />
@@ -949,8 +1040,8 @@
       <window_info anchor="bottom" id="Application Servers" order="4" weight="0.3289183" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32589287" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4978678" weight="0.95702004" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.69592875" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4978678" weight="0.04379562" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.69536424" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -961,13 +1052,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="bottom" id="Database Changes" order="17" />
       <window_info anchor="bottom" id="Version Control" order="18" />
-      <window_info anchor="bottom" id="JRebel Console" order="19" sideWeight="0.5010661" side_tool="true" weight="0.9260486" />
-      <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.4989059" weight="0.08370536" />
+      <window_info anchor="bottom" id="JRebel Console" order="19" sideWeight="0.5021322" side_tool="true" weight="0.7494481" />
+      <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.4989059" weight="0.8890511" />
       <window_info anchor="right" id="Preview" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32957393" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.32922912" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -978,436 +1069,404 @@
       <window_info anchor="right" id="Theme Preview" order="12" />
       <window_info anchor="right" id="RestServices" order="13" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.1006424" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" sideWeight="0.5033113" side_tool="true" weight="0.21162046" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" sideWeight="0.50457317" side_tool="true" weight="0.17220339" />
-      <window_info anchor="bottom" id="Problems" order="0" weight="0.03311258" />
-      <window_info anchor="bottom" id="JRebel Executor" order="1" sideWeight="0.49781182" weight="0.04643963" />
-      <window_info anchor="bottom" id="MyBatis Log" order="2" />
-      <window_info anchor="bottom" id="Tail" order="3" />
-      <window_info anchor="bottom" id="Application Servers" order="4" weight="0.3289183" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32589287" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.4978678" visible="true" weight="0.041841004" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.69592875" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5021322" side_tool="true" weight="0.6997793" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" />
-      <window_info anchor="bottom" id="Database Changes" order="17" />
-      <window_info anchor="bottom" id="Version Control" order="18" />
-      <window_info anchor="bottom" id="JRebel Console" order="19" sideWeight="0.5010661" side_tool="true" weight="0.9260486" />
-      <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.4989059" weight="0.08370536" />
-      <window_info anchor="right" id="Preview" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32957393" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Word Book" order="8" side_tool="true" />
-      <window_info anchor="right" id="BPMNPalette" order="9" />
-      <window_info anchor="right" id="Mybatis datasource" order="10" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="11" />
-      <window_info anchor="right" id="Theme Preview" order="12" />
-      <window_info anchor="right" id="RestServices" order="13" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/service/impl/ExamPaperAnswerServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/after/bus/QuestionMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="250">
+          <caret line="266" column="11" selection-start-line="266" selection-start-column="11" selection-end-line="266" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/mapper/QuestionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/impl/QuestionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+          <folding>
+            <element signature="e#1823#1824#0" expanded="true" />
+            <element signature="e#1879#1880#0" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#1950#1951#0" expanded="true" />
+            <element signature="e#2006#2007#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="method#UpdateQuestion#0;class#QuestionServiceImpl#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeExamController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="403" selection-start-line="403" selection-end-line="403" />
+        <state relative-caret-position="271">
+          <caret line="137" column="71" selection-start-line="137" selection-start-column="63" selection-end-line="137" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/cache/QuestionAspectCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getRandomList#0;class#HomeExamController#0" />
-            <element signature="method#insertQuestionToExamPaperCreate#0;class#HomeExamController#0" />
-            <element signature="method#getExamPaperAnswerList#0;class#HomeExamController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/subject/list.jsp">
+    <entry file="file://$PROJECT_DIR$/target/OnlineExam/WEB-INF/view/after/system/index/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state>
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/exam/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16439">
+          <caret line="330" column="47" selection-start-line="330" selection-start-column="47" selection-end-line="330" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/examPaper/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8739">
+          <caret line="197" column="47" selection-start-line="197" selection-start-column="47" selection-end-line="197" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/examPaperAnswer/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3339">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/question/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="795" column="48" selection-start-line="795" selection-start-column="14" selection-end-line="795" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/stats/exam_stats.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1199">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/student/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        <state relative-caret-position="13639">
+          <caret line="274" column="47" selection-start-line="274" selection-start-column="47" selection-end-line="274" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/business/subject/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11089">
+          <caret line="223" column="47" selection-start-line="223" selection-start-column="47" selection-end-line="223" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/common/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/common/menus.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="67" column="82" selection-start-line="67" selection-start-column="82" selection-end-line="67" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="140" column="87" selection-start-line="140" selection-start-column="87" selection-end-line="140" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/menu/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6511">
+          <caret line="337" column="47" selection-start-line="337" selection-start-column="47" selection-end-line="337" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/log/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7939">
+          <caret line="160" column="47" selection-start-line="160" selection-start-column="47" selection-end-line="160" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/role/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21389">
+          <caret line="429" column="48" selection-start-line="429" selection-start-column="48" selection-end-line="429" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/user/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25189">
+          <caret line="505" column="64" selection-start-line="505" selection-start-column="64" selection-end-line="505" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#td#1;n#tr#4;n#table#0;n#form#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#td#1;n#tr#3;n#table#0;n#form#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/exam/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1289">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/exam/examing.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="22839">
+          <caret line="458" column="67" selection-start-line="458" selection-start-column="67" selection-end-line="458" selection-end-column="67" />
           <folding>
-            <element signature="n#c:if#2;n#jsp:root#0;n#!!top" />
-            <element signature="n#c:if#3;n#jsp:root#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#label#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#label#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#label#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/before/controller/HomeStudentController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/home/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="112" column="57" lean-forward="true" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/after/bus/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/service/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-737">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/mapper/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="64" column="30" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="157" column="18" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
+        <state relative-caret-position="8689">
+          <caret line="175" column="79" selection-start-line="175" selection-start-column="79" selection-end-line="175" selection-end-column="79" />
           <folding>
-            <element signature="e#3839#3840#0" expanded="true" />
-            <element signature="e#3870#3871#0" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#2266#2272#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#th#0;n#div#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#div#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#td#0;n#div#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/PermissionServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/home/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2090">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/common/WebUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1301">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/common/GlobalExceptionHanderAdvise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/SystemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="56" column="20" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="158" column="20" selection-start-line="158" selection-start-column="10" selection-end-line="158" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/PermissionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="69" column="20" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="111" column="20" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/realm/UserRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/MenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-611">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/LogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1442">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/vo/PermissionVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4100">
-          <caret line="72" column="20" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/ExamPaperAnswerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="7889">
+          <caret line="159" column="79" selection-start-line="159" selection-start-column="79" selection-end-line="159" selection-end-column="79" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/common/TestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/exam_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="7089">
+          <caret line="143" column="87" selection-start-line="143" selection-start-column="87" selection-end-line="143" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/common/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/history_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2653">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/common/MenuUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/ExamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="126" column="20" selection-start-line="126" selection-start-column="10" selection-end-line="126" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1687">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/ExamPaperController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="157" column="26" selection-start-line="157" selection-start-column="26" selection-end-line="157" selection-end-column="26" />
+        <state relative-caret-position="3739">
+          <caret line="76" column="75" selection-start-line="76" selection-start-column="75" selection-end-line="76" selection-end-column="75" />
           <folding>
-            <element signature="method#list#0;class#StudentController#0" />
-            <element signature="method#add#0;class#StudentController#0" />
-            <element signature="method#isExistName#0;class#StudentController#0" />
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#form#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/RoleService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/admin/easyui/css/icons/application_side_expand.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/admin/easyui/css/icons/application_osx_get.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/all/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/password.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="4450">
+          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xxxx" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/service/impl/RoleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/profile.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="27" />
+        <state relative-caret-position="3800">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/review_exam.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2650">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="16500">
+          <caret line="330" column="47" selection-start-line="330" selection-start-column="47" selection-end-line="330" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="450">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-redis.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="558">
+          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1613">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RoleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/sys/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/cache/RoleIdsAspectCache.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/user_header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/wadewhy/after/bus/controller/BusinessController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/common/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="e#1273#1274#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/after/system/index/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dao.xml">
+    <entry file="jar://F:/repository/org/springframework/spring-webmvc/4.3.24.RELEASE/spring-webmvc-4.3.24.RELEASE.jar!/org/springframework/web/servlet/config/spring-mvc-4.3.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9800">
-          <caret line="196" column="20" selection-start-line="196" selection-start-column="13" selection-end-line="196" selection-end-column="20" />
+        <state relative-caret-position="-995">
+          <caret line="665" column="4" selection-start-line="665" selection-start-column="4" selection-end-line="665" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="159">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/home/images/menu_learn.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/head.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1622" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/before/userHome/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
         </state>
       </provider>
     </entry>

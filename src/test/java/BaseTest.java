@@ -20,9 +20,9 @@ import org.springframework.web.context.WebApplicationContext;
  * @DAY_NAME_FULL: 星期四
  * @PROJECT_NAME: ssm
  **/
-@RunWith(SpringJUnit4ClassRunner.class)
+//@RunWith(SpringJUnit4ClassRunner.class)
 //告诉junit spring配置文件
-@ContextConfiguration("classpath:applicationContext.xml")
+//@ContextConfiguration("classpath:applicationContext.xml")
 public class BaseTest {
   /*  @Autowired
     org.apache.shiro.mgt.SecurityManager securityManager;

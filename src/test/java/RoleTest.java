@@ -25,7 +25,7 @@ public class RoleTest extends BaseTest{
     */
   @Resource
   private RoleService roleService;
-    @Test
+//    @Test
     public void findAll() {
         List<Integer> list = roleService.queryRoleIdsByUserId(1);
         for (Integer i:list
@@ -33,7 +33,7 @@ public class RoleTest extends BaseTest{
             System.err.println(i+"---------------------");
         }
     }
-    @Test
+//    @Test
     public void logTest2(){
         logger.trace("Trace 日志...");
         logger.debug("Debug 日志...");

@@ -69,4 +69,6 @@ public interface QuestionMapper {
     int getTotal(Map<String, Object> queryMap);
 
     int getQuestionNumByType(Map<String, Integer> queryMap);
+
+    List<Question> findAllQuestion();
 }

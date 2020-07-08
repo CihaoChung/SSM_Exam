@@ -15,6 +15,8 @@ public interface QuestionService {
     List<Subject> findSubject();
 
     List<Question> findList(Map<String, Object> queryMap);
+    //全查询
+    List<Question> findAllQuestion();
 
     int getTotal(Map<String, Object> queryMap);
 

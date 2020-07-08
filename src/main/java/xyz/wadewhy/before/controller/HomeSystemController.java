@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import redis.clients.jedis.JedisPool;
 import xyz.wadewhy.after.bus.domain.Student;
 import xyz.wadewhy.after.bus.service.SubjectService;
 
@@ -47,9 +48,11 @@ public class HomeSystemController {
      * @param model
      * @return
      */
+    @Autowired
+    private JedisPool jedisPool;
     @RequestMapping(value = "/register")
     public ModelAndView register(ModelAndView model) {
-        System.err.println("/register\"-----------------------");
+        jedisPool.getResource().del("SubjectfindList");
         Map<String, Object> queryMap = new HashMap<String, Object>();
         queryMap.put("offset", 0);
         queryMap.put("pageSize", 99999);

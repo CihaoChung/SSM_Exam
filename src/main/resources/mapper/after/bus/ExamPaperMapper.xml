@@ -234,7 +234,7 @@
     e.passScore as e_passScore,e.singleQuestionNum as e_singleQuestionNum,e.muiltQuestionNum as e_muiltQuestionNum,
     e.chargeQuestionNum as e_chargeQuestionNum,e.paperNum as e_paperNum,e.examedNum as e_examedNum,
     e.passNum as e_passNum,e.createTime as e_createTime
-    from bus_examPaper ep,bus_exam e where ep.examId = e.id and ep.studentId = #{studentid} and status = 1
+    from bus_exampaper ep,bus_exam e where ep.examId = e.id and ep.studentId = #{studentid} and status = 1
     <if test="name != null">
       and e.name like '%${name}%'
     </if>
@@ -250,7 +250,7 @@
 
   <!-- 模糊搜索总条数 -->
   <select id="getTotal" parameterType="Map" resultType="Integer">
-    select count(*) from bus_examPaper where 1 = 1
+    select count(*) from bus_exampaper where 1 = 1
     <if test="examid != null">
       and examId = #{examid}
     </if>
@@ -263,7 +263,7 @@
   </select>
   <!-- 试卷信息搜索查询 -->
   <select id="findList" parameterType="Map" resultType="xyz.wadewhy.after.bus.domain.ExamPaper">
-    select * from bus_examPaper where 1 = 1
+    select * from bus_exampaper where 1 = 1
     <if test="examid != null">
       and examId = #{examid}
     </if>
@@ -279,6 +279,6 @@
   </select>
   <!-- 考试信息统计 -->
   <select id="getExamStats" parameterType="java.lang.Integer" resultType="Map">
-    select ep.score as score,ep.totalScore as totalScore,s.name as sname  from bus_examPaper ep,bus_student s where ep.examId = #{value} and ep.studentId = s.id
+    select ep.score as score,ep.totalScore as totalScore,s.name as sname  from bus_exampaper ep,bus_student s where ep.examId = #{value} and ep.studentId = s.id
   </select>
 </mapper>

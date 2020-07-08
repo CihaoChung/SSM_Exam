@@ -147,7 +147,7 @@ public class RoleController {
         if (StringUtils.isEmpty(role.getName())) {
             return new ResultObj(-2, "请填写角色名称！");
         }
-        if (roleService.add(role) <= 0) {
+        if (null==roleService.add(role)) {
             return new ResultObj(-1, "角色添加失败，请联系管理员！");
         }
         return ResultObj.ADD_SUCCESS;
@@ -167,7 +167,7 @@ public class RoleController {
         if (StringUtils.isEmpty(role.getName())) {
             return new ResultObj(-2, "请填写角色名称！");
         }
-        if (roleService.edit(role) <= 0) {
+        if (roleService.edit(role)==null) {
             return new ResultObj(-2, "角色修改失败，请联系管理员！");
 
         }
@@ -183,7 +183,7 @@ public class RoleController {
             //在删除之前删除拥有该角色用户的记录以及角色权限记录
             permissionService.deleteByRoleId(id);
             userService.deleteRoleUserByRid(id);
-            if (roleService.deleteById(id) <= 0) {
+            if (roleService.deleteById(id) ==null) {
                 return new ResultObj(-1, "删除失败，请联系管理员！");
             }
         } catch (Exception e) {

@@ -1,8 +1,10 @@
 package xyz.wadewhy.after.sys.controller;
 
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import xyz.wadewhy.after.bus.controller.QuestionController;
 import xyz.wadewhy.after.sys.common.Constant;
 import xyz.wadewhy.after.sys.common.Page;
 
@@ -33,6 +35,8 @@ import java.util.Map;
 @RestController
 @RequestMapping("/after/menu")
 public class MenuController {
+    // 获取日志记录器Logger，名字为本类类名
+    private static Logger logger = Logger.getLogger(MenuController.class);
     @Autowired
     private MenuService menuService;
     @Autowired
@@ -55,6 +59,8 @@ public class MenuController {
         Map<String, Object> queryMap = new HashMap<String, Object>();
         queryMap.put("offset", page.getOffset());
         queryMap.put("pageSize", page.getRows());
+        logger.info("-------------------page.getOffset():"+page.getOffset());
+        logger.info("-------------------page.getOffset():"+page.getRows());
         queryMap.put("title", title);
         List<Permission> findList = menuService.findList(queryMap);
         ret.put("rows", findList);

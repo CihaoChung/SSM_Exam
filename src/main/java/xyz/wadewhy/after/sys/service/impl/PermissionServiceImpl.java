@@ -70,6 +70,7 @@ public class PermissionServiceImpl implements PermissionService {
         return permissionMapper.queryMenuById(pids);
     }
 
+
     @Override
     public List<Role_Permission> queryRole_Permissions(Integer rid) {
         return permissionMapper.queryRole_Permissions(rid);

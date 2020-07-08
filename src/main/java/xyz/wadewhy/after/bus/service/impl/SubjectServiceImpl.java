@@ -2,10 +2,12 @@ package xyz.wadewhy.after.bus.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import redis.clients.jedis.JedisPool;
 import xyz.wadewhy.after.bus.domain.Subject;
 import xyz.wadewhy.after.bus.mapper.SubjectMapper;
 import xyz.wadewhy.after.bus.service.SubjectService;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -69,13 +71,34 @@ public class SubjectServiceImpl implements SubjectService {
      * @param subject
      * @return
      */
+    @Autowired
+    private JedisPool jedisPool;
     @Override
-    public int edit(Subject subject) {
-        return subjectMapper.updateByPrimaryKey(subject);
+    public List<Subject> edit(Subject subject) {
+        int i= subjectMapper.updateByPrimaryKey(subject);
+        if (i>0){//添加成
+            //添加key
+            jedisPool.getResource().del("RolefindList");
+            //查询并返回
+            List<Subject> subjects = findList(new HashMap<String, Object>());
+            return subjects;
+        }else{//删除失败
+            return null;
+        }
     }
 
     @Override
-    public int deleteSubjectById(Integer id) {
-        return subjectMapper.deleteByPrimaryKey(id);
+    public List<Subject> deleteSubjectById(Integer id) {
+
+        int i= subjectMapper.deleteByPrimaryKey(id);
+        if (i>0){//添加成
+            //添加key
+            jedisPool.getResource().del("RolefindList");
+            //查询并返回
+            List<Subject> subjects = findList(new HashMap<String, Object>());
+            return subjects;
+        }else{//删除失败
+            return null;
+        }
     }
 }

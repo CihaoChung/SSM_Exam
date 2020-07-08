@@ -21,7 +21,10 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import redis.clients.jedis.JedisPool;
 import xyz.wadewhy.after.sys.common.ActiverUser;
 import xyz.wadewhy.after.sys.common.Constant;
 import xyz.wadewhy.after.sys.common.WebUtils;
@@ -47,6 +50,7 @@ import xyz.wadewhy.after.sys.service.UserService;
 */
 
 public class UserRealm extends AuthorizingRealm {
+    public static final Logger logger = LoggerFactory.getLogger(UserRealm.class);
     @Autowired
     private UserService userService;
     @Autowired
@@ -61,10 +65,12 @@ public class UserRealm extends AuthorizingRealm {
 
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) {
+
         // 得到用户名
         String username = token.getPrincipal().toString();
         // 根据用户名查询用户
         User user = userService.queryUserByUserName(username);
+        logger.info("----------------------doGetAuthenticationInfo----------------------------"+user.toString());
      if (null!=user){
          // 存在该用户
 //         List<String> roles = roleService.queryRolesByUserId(user.getId());

@@ -8,12 +8,15 @@
 package xyz.wadewhy.after.sys.service.impl;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import org.apache.ibatis.annotations.Options;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
+import redis.clients.jedis.JedisPool;
 import xyz.wadewhy.after.sys.domain.Role;
 import xyz.wadewhy.after.sys.mapper.RoleMapper;
 import xyz.wadewhy.after.sys.mapper.UserMapper;
@@ -39,12 +42,15 @@ public class RoleServiceImpl implements RoleService {
     private RoleMapper roleMapper;
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private JedisPool jedisPool;
 
     /**
      * 根据用户id查询用户角色
      * @param userId
      * @return
      */
+
     public List<Integer> queryRoleIdsByUserId(Integer userId) {
         List<Integer> list = roleMapper.queryRoleIdsByUserId(userId);
         return list;
@@ -74,16 +80,46 @@ public class RoleServiceImpl implements RoleService {
         return roleMapper.getTotal(queryMap);
     }
     @Override
-    public int add(Role role){
-        return roleMapper.insert(role);
+    public  List<Role> add(Role role){
+        int i = roleMapper.insert(role);
+        if (i>0){//添加成
+            //添加key
+            jedisPool.getResource().del("RolefindList");
+            //查询并返回
+            List<Role> roles = findList(new HashMap<String, Object>());
+            return roles;
+        }else{//删除失败
+            return null;
+        }
     }
 
+
     @Override
-    public int edit(Role role) {
-        return roleMapper.updateByPrimaryKeySelective(role);
+    public List<Role> edit(Role role) {
+        //先更新
+        int i = roleMapper.updateByPrimaryKeySelective(role);
+        if (i>0){
+            //删除key
+            jedisPool.getResource().del("RolefindList");
+            //查询并返回
+            List<Role> roles = findList(new HashMap<String, Object>());
+            return roles;
+        }else {//修改失败时
+            return null;
+        }
+
     }
-    public int deleteById(Integer id){
-        return roleMapper.deleteByPrimaryKey(id);
+    public List<Role> deleteById(Integer id){
+        int i = roleMapper.deleteByPrimaryKey(id);
+        if (i>0){//删除成公
+            //删除key
+            jedisPool.getResource().del("RolefindList");
+            //查询并返回
+            List<Role> roles = findList(new HashMap<String, Object>());
+            return roles;
+        }else{//删除失败
+            return null;
+        }
     }
 
     @Override
@@ -104,7 +140,7 @@ public class RoleServiceImpl implements RoleService {
      */
     @Override
     public int add_role_user(Integer rid,Integer uid) {
-        return userMapper.add_role_user(rid,uid);
+       return userMapper.add_role_user(rid,uid);
     }
 
     /**

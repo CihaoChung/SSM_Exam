@@ -10,6 +10,7 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
     <!-- 扫描 -->
     <context:component-scan base-package="xyz.wadewhy.*.*.service.impl"/>
+    <context:component-scan base-package="xyz.wadewhy.cache"/>
     <context:component-scan base-package="xyz.wadewhy.*.service.impl"/>
     <!-- 配置事务管理器 -->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
@@ -30,10 +31,14 @@
             <!--<tx:method name="*" read-only="true"/>-->
         </tx:attributes>
     </tx:advice>
+
     <!-- 配置aop -->
     <aop:config>
-        <aop:pointcut expression="execution(* xyz.wadewhy.*.*service.impl.*.*(..))" id="pc"/>
+        <!--<aop:pointcut expression="execution(* xyz.wadewhy.*.*.service.impl.*.*(..))" id="pc"/>-->
+        <aop:pointcut expression="execution(* xyz.wadewhy.after.*.service.impl.*.*(..))" id="pc1"/>
+        <aop:pointcut expression="execution(* xyz.wadewhy.before.service.impl.*.*(..))" id="pc2"/>
         <!-- 织入操作 -->
-        <aop:advisor advice-ref="advise" pointcut-ref="pc"/>
+        <aop:advisor advice-ref="advise" pointcut-ref="pc1"/>
+        <aop:advisor advice-ref="advise" pointcut-ref="pc2"/>
     </aop:config>
 </beans>

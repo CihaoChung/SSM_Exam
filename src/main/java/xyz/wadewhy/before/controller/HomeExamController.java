@@ -121,7 +121,7 @@ public class HomeExamController {
         // 试卷已经正确生成，现在开始随机生成试题
         Map<String, Object> queryQuestionMap = new HashMap<String, Object>();
         queryQuestionMap.put("type", Question.QUESTION_TYPE_SINGLE);
-        queryQuestionMap.put("subjectid", exam.getSubjectid());
+        queryQuestionMap.put("subjectId", exam.getSubjectid());
         queryQuestionMap.put("offset", 0);
         queryQuestionMap.put("pageSize", 99999);
         if (exam.getSinglequestionnum() > 0) {
@@ -506,6 +506,10 @@ public class HomeExamController {
         exam.setExamedNum(exam.getExamedNum() + 1);
         if (findExamPaper.getScore() >= exam.getPassscore()) {
             // 说明及格了
+            logger.info("-------------exam.getPassnum() + 1----------------"+exam.getPassnum() + 1);
+            if (null==exam.getPassnum()){
+                exam.setPassnum(1);
+            }
             exam.setPassnum(exam.getPassnum() + 1);
         }
         request.getSession().setAttribute("startExamTime", null);

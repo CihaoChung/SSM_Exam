@@ -252,12 +252,18 @@
     <if test="type != null">
       and type = #{type}
     </if>
-    <if test="subjectid != null">
-      and subjectId = #{subjectid}
+    <if test="subjectId != null">
+      and subjectId = #{subjectId}
     </if>
     <if test="offset != null and pageSize != null">
       limit #{offset},#{pageSize}
     </if>
+  </select>
+
+
+  <!-- 试题信息搜索查询 -->
+  <select id="findAllQuestion"  resultType="xyz.wadewhy.after.bus.domain.Question">
+    select * from bus_question
   </select>
   <!-- 模糊搜索总条数 -->
   <select id="getTotal" parameterType="Map" resultType="Integer">
@@ -271,12 +277,14 @@
     <if test="subjectId != null">
       and subjectId = #{subjectId}
     </if>
-    <if test="subjectId != null">
+    <!-- <if test="subjectId != null">
       and subjectId = #{subjectId}
-    </if>
+    </if> -->
   </select>
   <!-- 根据试题类型获取试题数量 -->
   <select id="getQuestionNumByType" parameterType="Map" resultType="Integer">
     select count(*) from bus_question where type = ${questiontype} and subjectId = ${subjectid}
   </select>
+
+
 </mapper>

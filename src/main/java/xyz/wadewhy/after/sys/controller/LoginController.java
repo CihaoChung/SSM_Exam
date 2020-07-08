@@ -2,17 +2,18 @@ package xyz.wadewhy.after.sys.controller;
 
 import cn.hutool.captcha.CaptchaUtil;
 import cn.hutool.captcha.LineCaptcha;
+import org.apache.log4j.Logger;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import redis.clients.jedis.JedisPool;
 import xyz.wadewhy.after.sys.common.ActiverUser;
 import xyz.wadewhy.after.sys.common.ResultObj;
 import xyz.wadewhy.after.sys.common.WebUtils;
@@ -42,13 +43,16 @@ import java.util.List;
 @Controller
 @RequestMapping("/after/login")
 public class LoginController {
-    public static final Logger logger = LoggerFactory.getLogger(LoginController.class);
+    // 获取日志记录器Logger，名字为本类类名
+    private static Logger logger = Logger.getLogger(LoginController.class);
     @Autowired
     private UserService userService;
     @Autowired
     private RoleService roleService;
     @Autowired
     private LogService logService;
+    @Autowired
+    private JedisPool jedisPool;
     /**
      * 利用Hutool工具类得到验证码
      * @param response
@@ -75,7 +79,13 @@ public class LoginController {
     @RequestMapping("login")
     @ResponseBody
     public ResultObj login(String name,String pwd,String cpacha){
-        logger.debug(name+pwd+cpacha+"【登录方法】");
+
+        //先清除权限的key
+        String[] strkey = {"RoleIds_KEY","PermissionIds_KEY","RolefindList_KEY","queryPIdById","queryMenuById_KEY"};
+        //退出情况key
+        Long del = jedisPool.getResource().del(strkey);
+
+        logger.info(name+pwd+cpacha+"【登录方法】-----------------------"+del);
         //得到真正的验证码
         String realCode = WebUtils.getHttpSession().getAttribute("cpacha").toString();
         //判断验证码是否正确

@@ -221,6 +221,8 @@
     </foreach>
 
   </select>
+
+
   <!-- 获取顶级菜单信息 -->
   <select id="findTopList" resultMap="BaseResultMap">
 		select * from sys_permission where pid = 0

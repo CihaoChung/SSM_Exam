@@ -86,5 +86,7 @@ public interface PermissionMapper {
 
     List<Integer> findRolePermissionByPid(Integer pid);
 
+
+
 //    List<Permission> queryPermissionByIds(@Param("id") List<Integer> perId);
 }

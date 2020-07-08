@@ -55,6 +55,8 @@ public interface PermissionService {
      * @return
      */
     List<Permission> queryMenuById(Set<Integer> pids);
+
+
     /**
      * 根据ids查询permission
      * @param

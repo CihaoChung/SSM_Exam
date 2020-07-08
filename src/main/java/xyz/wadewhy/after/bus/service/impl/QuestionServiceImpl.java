@@ -2,6 +2,7 @@ package xyz.wadewhy.after.bus.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import redis.clients.jedis.JedisPool;
 import xyz.wadewhy.after.bus.domain.Question;
 import xyz.wadewhy.after.bus.domain.Question_Option;
 import xyz.wadewhy.after.bus.domain.Subject;
@@ -10,7 +11,9 @@ import xyz.wadewhy.after.bus.mapper.Question_OptionMapper;
 import xyz.wadewhy.after.bus.mapper.SubjectMapper;
 import xyz.wadewhy.after.bus.service.QuestionService;
 import xyz.wadewhy.after.bus.service.SubjectService;
+import xyz.wadewhy.after.sys.domain.Role;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -32,7 +35,8 @@ public class QuestionServiceImpl implements QuestionService {
     private Question_OptionMapper question_optionMapper;
     @Autowired
     private SubjectMapper subjectMapper;
-
+@Autowired
+private JedisPool jedisPool;
     @Override
     public int insertQuestionAndGetId(Question question) {
         return questionMapper.insertQuestionAndGetId(question);
@@ -57,6 +61,10 @@ public class QuestionServiceImpl implements QuestionService {
     public List<Question> findList(Map<String, Object> queryMap) {
         return questionMapper.findList(queryMap);
     }
+    @Override
+    public List<Question> findAllQuestion() {
+        return questionMapper.findAllQuestion();
+    }
 
     @Override
     public int getTotal(Map<String, Object> queryMap) {
@@ -73,16 +81,44 @@ public class QuestionServiceImpl implements QuestionService {
         return question_optionMapper.findQuestionAndOptionById(questionId);
     }
 
-    @Override
-    public int UpdateQuestion_Option(Question_Option question_option) {
-        return question_optionMapper.UpdateQuestion_Option(question_option);
-    }
+   /* @Override
+    public List<Question>  UpdateQuestion_Option(Question_Option question_option) {
+        int i = question_optionMapper.UpdateQuestion_Option(question_option);
+        if (i>0){//添加成
+            //添加key
+            jedisPool.getResource().del("QuestionfindList");
+            //查询并返回
+            List<Question> questions =  findList(new HashMap<String, Object>());
+            return questions;
+        }else{//删除失败
+            return null;
+        }
+    }*/
+   @Override
+   public int  UpdateQuestion_Option(Question_Option question_option) {
+       return question_optionMapper.UpdateQuestion_Option(question_option);
+   }
 
-    @Override
-    public int UpdateQuestion(Question question) {
-        return questionMapper.updateByPrimaryKeySelective(question);
-    }
+   /* @Override
+    public List<Question> UpdateQuestion(Question question) {
+//        findList()
+        int i= questionMapper.updateByPrimaryKeySelective(question);
+        if (i>0){//添加成
+            //添加key
+            jedisPool.getResource().del("QuestionfindList");
+            //查询并返回
+            List<Question> questions =  findList(new HashMap<String, Object>());
+            return questions;
+        }else{//删除失败
+            return null;
+        }
+    }*/
+   @Override
+   public int UpdateQuestion(Question question) {
+//        findList()
+       return  questionMapper.updateByPrimaryKeySelective(question);
 
+   }
     @Override
     public int deleteById(Integer id) {
         return questionMapper.deleteByPrimaryKey(id);

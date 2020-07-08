@@ -8,6 +8,7 @@
 package xyz.wadewhy.after.sys.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import xyz.wadewhy.after.sys.domain.User;
@@ -38,6 +39,7 @@ public class UserServiceImpl implements UserService {
     /* (non-Javadoc)
      * @see xyz.wadewhy.homeservice.UserService#queryUserByUsername(java.lang.String)
      */
+    @Cacheable(cacheNames="queryUserByUserName",key="#username")
     public User queryUserByUserName(String username) {
 
         return userMapper.queryUserByUserName(username);

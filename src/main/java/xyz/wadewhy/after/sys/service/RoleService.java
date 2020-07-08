@@ -44,11 +44,11 @@ public interface RoleService {
 
     int getTotal(Map<String, Object> queryMap);
 
-    int add(Role role);
+    List<Role> add(Role role);
 
-    int edit(Role role);
+    List<Role> edit(Role role);
 
-    int deleteById(Integer id);
+    List<Role> deleteById(Integer id);
 
     List<Role> findRoleByUid(List<Integer> ids);
 

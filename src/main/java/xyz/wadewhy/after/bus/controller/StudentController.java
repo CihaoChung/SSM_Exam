@@ -72,7 +72,7 @@ public class StudentController {
     @RequestMapping(value = "add", method = RequestMethod.POST)
     @ResponseBody
     public Map<String, String> add(Student student) {
-        System.err.println("-------------------添加考生-----------------------");
+//        System.err.println("-------------------添加考生-----------------------");
         Map<String, String> ret = new HashMap<String, String>();
         if (student == null) {
             ret.put("type", "error");

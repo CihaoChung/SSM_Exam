@@ -90,7 +90,7 @@ public class SubjectController {
         if (subjectService.findSubjectByName(subject.getName(),subject.getId())!=null){
             return new ResultObj(-2,"已经存在该科目！");
         }
-        if(subjectService.edit(subject) <= 0){
+        if(subjectService.edit(subject) !=null){
             return new ResultObj(-1,"添加失败，请联系管理员!");
         }
         return ResultObj.ADD_SUCCESS;
@@ -107,7 +107,7 @@ public class SubjectController {
             return new ResultObj(-2,"请选择要删除的数据!");
         }
         try {
-            if(subjectService.deleteSubjectById(id) <= 0){
+            if(subjectService.deleteSubjectById(id)!=null){
                 return new ResultObj(-2,"删除失败，请联系管理员!");
             }
         } catch (Exception e) {

@@ -16,7 +16,7 @@ public interface SubjectService {
 
     Subject findSubjectByName(String name,Integer id);
 
-    int edit(Subject subject);
+    List<Subject> edit(Subject subject);
 
-    int deleteSubjectById(Integer id);
+    List<Subject> deleteSubjectById(Integer id);
 }
