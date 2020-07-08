@@ -70,7 +70,7 @@
 					<tr>
 						<td>
 							<div class="tm_pager_foot">
-								<a href="before/bus/exam_list.action?page=${page - 1}" class="tm_btns" style="color:white;text-decoration:none;">上一页</a>&nbsp;&nbsp;&nbsp;<font size="5" color="red"><b>${page}</b></font>&nbsp;&nbsp;&nbsp;<a href="before/bus/exam_list.action??page=${page + 1}" class="tm_btns" style="color:white;text-decoration:none;">下一页</a>&nbsp;
+								<a href="${pageContext.request.contextPath}/before/bus/exam_list.action?page=${page - 1}" class="tm_btns" style="color:white;text-decoration:none;">上一页</a>&nbsp;&nbsp;&nbsp;<font size="5" color="red"><b>${page}</b></font>&nbsp;&nbsp;&nbsp;<a href="${pageContext.request.contextPath}/before/bus/exam_list.action?page=${page + 1}" class="tm_btns" style="color:white;text-decoration:none;">下一页</a>&nbsp;
 							</div>
 						</td>
 					</tr>
